@@ -1,0 +1,395 @@
+/* 
+ Theme Name:   Auracos
+ Theme URI:    
+ Description:  
+ Author:       admin
+ Author URI:   
+ Template:     theluxury
+ Version:      1.0
+
+ /* == Add your own styles below this line ==
+--------------------------------------------*/
+
+
+@media screen and (max-width: 1090px) {
+	#content-section-1 .ms-nav-next,
+	#content-section-1 .ms-nav-prev {
+		display: none;
+	}
+
+	body .gdlr-header-inner .gdlr-logo {
+		max-width: 200px !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+
+	#content-section-1 .ms-slide .ms-layer
+	{
+		    left: 11% !important;
+	}
+
+	#content-section-1 .ms-nav-next,
+	#content-section-1 .ms-nav-prev {
+		display: none;
+	}
+
+	#content-section-1 .ms-btn-container {
+		 left: 10% !important;
+	}
+
+	#content-section-4 p.benefits-height {
+		 min-height: 150px;
+
+	}
+
+	#content-section-2 .gdlr-parallax-wrapper {
+		background-image: none !important; 
+		padding-top: 60px !important;
+	}
+
+	#content-section-2  .three-fifth {
+		width: 84%;
+	    margin: 0 auto;
+	    float: none;
+	}
+
+
+	#content-section-10 select {
+		width: 105.5%;
+	}
+
+	body .gdlr-logo {
+    	float: none !important;
+	}
+
+	body .gdlr-navigation-wrapper {
+		    float: none;
+	}
+
+	#content-section-1 .ms-btn-container .ms-btn.p-button,
+	#content-section-1 .ms-btn-container .ms-btn.pro-button {
+		left: -300px !important;
+    	top: 120px
+	}
+
+	/* Arabic */
+
+	
+
+	.page-id-3740 .gdlr-right-sidebar {
+	    	position: absolute;
+		    top: -50px;
+	}
+
+	#content-section-1 .ms-slide .ms-layer.ar-pro-title,
+	#content-section-1 .ms-slide .ms-layer.ar-gold-line,
+	#content-section-1 .ms-slide .ms-layer.ar-p-text{
+		    left: 50% !important;
+	}
+
+	#content-section-1 .ms-btn-container .ms-btn.ar-p-button,
+	#content-section-1 .ms-btn-container .ms-btn.ar-pro-button {
+		    left: 180px !important;
+	}
+
+	#content-section-1 .ms-slide .ar-pro-title {
+		top: 140px !important;
+    	text-align: left;
+	}
+
+
+	#content-section-1 .ms-slide .ar-gold-line {
+		top: 178px !important;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text {
+		top: 205px !important;
+	}
+
+	#content-section-1 .ms-btn-container {
+	        left: 50% !important;
+	     top: 250px !important;
+	}
+
+	#content-section-1 .ms-btn-container .ms-btn {
+		padding: 8px 25px !important;
+	    font-size: 14px !important;
+	    width: 60px !important;
+
+	}
+
+	#content-section-1 .ms-slide .ar-p-text.ar-p-high {
+		    top: 250px !important;
+		    line-height: 1.4 !important;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text h1 {
+		font-size: 20px !important;
+		background: rgba(0,0,0,0.5);
+		display: inline-block;
+	    padding: 4px 8px;
+	    border-radius: 2px;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text span {
+		font-size: 20px !important;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text.ar-p-anti,
+	#content-section-1 .ms-slide .ar-p-text.ar-p-high {
+		font-size: 11px !important;
+		background: rgba(0,0,0,0.5);
+		display: inline-block;
+	    padding: 4px 8px;
+	    border-radius: 2px;
+	    width: inherit !important; 
+	}
+
+	#content-section-1 .ms-slide .ar-p-text.ar-p-anti span {
+		font-size: 20px !important;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text.ar-p-high span {
+		font-size: 20px !important;
+	}
+
+	#content-section-1 .ms-btn-container .ms-btn.ar-pro-button {
+		    top: 65px !important;
+	}
+}
+
+@media screen and (max-width: 670px) { 
+
+	#content-section-1 .ms-btn-container .ms-btn.p-button, 
+	#content-section-1 .ms-btn-container .ms-btn.pro-button {
+		    left: -263px !important;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+
+	#content-section-1 .ms-btn-container .ms-btn.p-button, 
+	#content-section-1 .ms-btn-container .ms-btn.pro-button {
+		left: 5px !important;
+    	top: -2px;
+	}
+
+	.page-id-3807 .section-container {
+		padding-top: 0 !important;
+	}
+
+	.page-id-3807 .gdlr-content-item {
+		margin-bottom: 20px !important;
+	}
+
+	.page-id-3740 .gdlr-left-sidebar {
+		    position: absolute;
+    		top: -165px;
+	}
+
+
+
+	#content-section-10 select {
+    	width: 100%;
+	}
+
+	#content-section-6 .gdlr-parallax-wrapper {
+		padding-top: 40px !important;
+	}
+
+	#content-section-4 p.benefits-height {
+    	min-height: 40px;
+	}
+
+	body #content-section-4 .gdlr-item {
+		text-align: center;
+	}
+
+	body .container {
+		    max-width: 400px !important;
+	}
+
+	#content-section-1 .ms-slide .ms-layer
+	{
+		    left: 4% !important;
+	}
+
+	#content-section-1 .ms-slide .pro-title {
+		top: 20px !important;
+    	
+	}
+
+	#content-section-1 .ms-slide .gold-line {
+		top: 40px !important;
+	}
+
+	#content-section-1 .ms-slide .p-text {
+		top: 60px !important;
+	}
+
+	#content-section-1 .ms-btn-container {
+	    left: 3% !important;
+	    top: 115px !important;
+	}
+
+	#content-section-1 .ms-btn-container .ms-btn {
+		padding: 8px 25px !important;
+	    font-size: 14px !important;
+	    width: 60px !important;
+
+	}
+
+	#content-section-1 .ms-slide .p-text.p-high {
+		    top: 77px !important;
+		    line-height: 1.4 !important;
+	}
+
+	#content-section-1 .ms-slide .p-text h1 {
+		font-size: 11px !important;
+		background: rgba(0,0,0,0.5);
+		display: inline-block;
+	    padding: 4px 8px;
+	    border-radius: 2px;
+	}
+
+	#content-section-1 .ms-slide .p-text span {
+		font-size: 11px !important;
+	}
+
+	#content-section-1 .ms-slide .p-text.p-anti span {
+		font-size: 11px !important;
+	}
+
+	#content-section-1 .ms-slide .p-text.p-high span {
+		font-size: 11px !important;
+	}
+	    
+	/* Arabic */
+
+	#content-section-1 .ms-btn-container .ms-btn.ar-pro-button {
+    	top: 10px !important;
+	}
+
+	.page-id-3740 .gdlr-right-sidebar {
+	    	position: absolute;
+		    top: -50px;
+	}
+
+	#content-section-1 .ms-slide .ms-layer.ar-pro-title,
+	#content-section-1 .ms-slide .ms-layer.ar-gold-line,
+	#content-section-1 .ms-slide .ms-layer.ar-p-text{
+		    left: 50% !important;
+	}
+
+	#content-section-1 .ms-btn-container .ms-btn.ar-p-button,
+	#content-section-1 .ms-btn-container .ms-btn.ar-pro-button {
+		      left: 230px !important;
+
+	}
+
+	#content-section-1 .ms-slide .ar-pro-title {
+		top: 20px !important;
+    	text-align: left;
+	}
+
+
+	#content-section-1 .ms-slide .ar-gold-line {
+		top: 40px !important;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text {
+		top: 60px !important;
+	}
+
+	#content-section-1 .ms-btn-container {
+	    left: 3% !important;
+	    top: 115px !important;
+	}
+
+	#content-section-1 .ms-btn-container .ms-btn {
+		padding: 8px 25px !important;
+	    font-size: 14px !important;
+	    width: 60px !important;
+
+	}
+
+	#content-section-1 .ms-slide .ar-p-text.ar-p-high {
+		    top: 77px !important;
+		    line-height: 1.4 !important;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text h1 {
+		font-size: 11px !important;
+		background: rgba(0,0,0,0.5);
+		display: inline-block;
+	    padding: 4px 8px;
+	    border-radius: 2px;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text span {
+		font-size: 11px !important;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text.ar-p-anti,
+	#content-section-1 .ms-slide .ar-p-text.ar-p-high {
+		font-size: 11px !important;
+		background: rgba(0,0,0,0.5);
+		display: inline-block;
+	    padding: 4px 8px;
+	    border-radius: 2px;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text.ar-p-anti span {
+		font-size: 11px !important;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text.ar-p-high span {
+		font-size: 11px !important;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+
+	#content-section-8 .gdlr-parallax-wrapper {
+		padding-top: 40px !important;
+	}
+
+	#content-section-8 .gdlr-item-title-wrapper .gdlr-item-title {
+		font-size: 22px;
+	}
+
+	#content-section-1 .ms-btn-container {
+		top: 120px !important;
+	}
+
+	#content-section-1 .ms-slide .p-text.p-anti  {
+		 line-height: 1.4 !important;
+		 top: 55px !important;
+	}
+
+	#content-section-1 .ms-slide .p-text.p-high {
+	    top: 85px !important;
+	   
+	}
+
+	/* Arabic */
+
+	#content-section-1 .ms-btn-container {
+		top: 120px !important;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text.ar-p-anti  {
+		 line-height: 1.4 !important;
+		 top: 55px !important;
+	}
+
+	#content-section-1 .ms-slide .ar-p-text.ar-p-high {
+	    top: 85px !important;
+	   
+	}
+
+}

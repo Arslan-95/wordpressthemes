@@ -1,0 +1,380 @@
+html.ltie9 body, body{ min-width: 1140px; } .container{ max-width: 1140px; } .gdlr-caption-wrapper .gdlr-caption-inner{ max-width: 1140px; }
+.body-wrapper.gdlr-boxed-style{ max-width: 1220px; overflow: hidden; } .body-wrapper.gdlr-boxed-style .gdlr-header-wrapper{ max-width: 1220px; margin: 0px auto; }
+.gdlr-logo{ max-width: 320px; }
+.gdlr-logo{ margin-top: 39px; }
+.gdlr-logo{ margin-bottom: 41px; }
+.gdlr-navigation-wrapper{ margin-top: 42px; }
+.gdlr-page-title-wrapper .gdlr-page-title-overlay{ opacity: 0.7; }
+h1, h2, h3, h4, h5, h6, .gdlr-title-font{ font-family: "Open Sans"; }
+body, input, textarea, select{ font-family: "Merriweather"; }
+.gdlr-navigation{ font-family: "Open Sans"; }
+.gdlr-slider-item{ font-family: "Open Sans"; }
+body{ font-size: 14px; }
+h1{ font-size: 47px; }
+h2{ font-size: 41px; }
+h3{ font-size: 32px; }
+h4{ font-size: 26px; }
+h5{ font-size: 21px; }
+h6{ font-size: 16px; }
+.top-navigation-wrapper{ background-color: #000000; }
+.top-navigation-wrapper{ color: #ffffff; }
+.top-navigation-wrapper a, .top-navigation-wrapper a:hover{ color: #f2f2f2; }
+.gdlr-top-bar-login-wrapper{ border-color: #434343; }
+.gdlr-top-bar-login-wrapper .gdlr-top-bar-login { background-color: #2a2a2a; }
+.gdlr-top-bar-login-wrapper input[type="text"], .gdlr-top-bar-login-wrapper input[type="password"] { color: #aaaaaa; }
+.gdlr-top-bar-login-wrapper input[type="text"], .gdlr-top-bar-login-wrapper input[type="password"] { background: #363636; }
+.gdlr-top-bar-login-wrapper input[type="submit"] { color: #ffffff; }
+.gdlr-top-bar-login-wrapper input[type="submit"] { background: #111111; }
+.gdlr-menu-search{ background: #3a3a3a; background: rgba(58, 58, 58, 0.8); }
+.gdlr-header-inner, .header-style-transparent .gdlr-fixed-header .gdlr-header-inner{ background: #0a0a0a; background: rgba(10, 10, 10, 0.8); }@media only screen and (max-width: 767px) { .body-wrapper.header-style-transparent .gdlr-header-inner{ background: #0a0a0a; background: rgba(10, 10, 10, 0.8); } }
+.gdlr-main-menu > li > a, .header-style-transparent .gdlr-fixed-header .gdlr-header-inner .gdlr-main-menu > li > a{ color: #ffffff; }
+.gdlr-main-menu > li:hover > a, .gdlr-main-menu > li.current-menu-item > a, .gdlr-main-menu > li.current-menu-ancestor > a, .header-style-transparent .gdlr-fixed-header .gdlr-header-inner .gdlr-main-menu > li:hover > a, .header-style-transparent .gdlr-fixed-header .gdlr-header-inner .gdlr-main-menu > li.current-menu-item > a, .header-style-transparent .gdlr-fixed-header .gdlr-header-inner .gdlr-main-menu > li.current-menu-ancestor > a{ color: #ffffff; opacity: 1; filter: alpha(opacity=100); }
+.gdlr-navigation-gimmick{ background-color: #86754d; }
+.header-style-transparent .gdlr-main-menu > li > a{ color: #ffffff; }
+.header-style-transparent .gdlr-main-menu > li:hover > a, .header-style-transparent .gdlr-main-menu > li.current-menu-item > a, .header-style-transparent .gdlr-main-menu > li.current-menu-ancestor > a{ color: #ffffff; }
+.gdlr-main-menu > .gdlr-normal-menu .sub-menu, .gdlr-main-menu > .gdlr-mega-menu .sf-mega{ border-top-color: #1c1c1c; }
+.gdlr-main-menu > .gdlr-normal-menu li , .gdlr-main-menu > .gdlr-mega-menu .sf-mega{ background-color: #2a2a2a; }
+.gdlr-main-menu > li > .sub-menu a, .gdlr-main-menu > li > .sf-mega a{ color: #bebebe; }
+.gdlr-main-menu > li > .sub-menu a:hover, .gdlr-main-menu > li > .sub-menu .current-menu-item > a, .gdlr-main-menu > li > .sub-menu .current-menu-ancestor > a, .gdlr-main-menu > li > .sf-mega a:hover, .gdlr-main-menu > li > .sf-mega .current-menu-item > a, .gdlr-main-menu > li > .sf-mega .current-menu-ancestor > a{ color: #ffffff; } .gdlr-main-menu .gdlr-normal-menu li > a.sf-with-ul:after { border-left-color: #ffffff; } 
+.gdlr-main-menu .sf-mega-section-inner > ul > li > a:hover, .gdlr-main-menu .sf-mega-section-inner > ul > li.current-menu-item > a { background-color: #2a2a2a; } 
+.gdlr-main-menu > li > .sub-menu *, .gdlr-main-menu > li > .sf-mega *{ border-color: #373737; }
+.gdlr-main-menu > li > .sf-mega .sf-mega-section-inner > a { color: #ffffff; }
+.gdlr-main-menu > li > .sf-mega .sf-mega-section-inner > a:hover, .gdlr-main-menu > li > .sf-mega .sf-mega-section-inner.current-menu-item > a, .gdlr-main-menu > li > .sf-mega .sf-mega-section-inner.current-menu-ancestor > a { color: #ffffff; }
+#gdlr-responsive-navigation.dl-menuwrapper button { background-color: #2a2a2a; }
+#gdlr-responsive-navigation.dl-menuwrapper button:hover, #gdlr-responsive-navigation.dl-menuwrapper button.dl-active, #gdlr-responsive-navigation.dl-menuwrapper ul{ background-color: #2a2a2a; }
+blockquote{ background-image: url('../images/light/quote-small.png'); } .format-quote .gdlr-top-quote blockquote{ background-image: url('../images/light/quote.png'); } @media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { blockquote{ background-image: url('../images/light/quote@2x.png'); } }.gdlr-now-loading{ background: url('../images/light/now-loading.gif') center no-repeat; }
+body{ background-color: #dddddd; }
+.body-wrapper, .gdlr-single-lightbox-container{ background-color: #0a0a0a; }
+.gdlr-page-title, .gdlr-page-title-gimmick{ color: #ffffff; }
+.gdlr-page-caption{ color: #ffffff; }
+h1, h2, h3, h4, h5, h6, .gdlr-title, .gdlr-title a{ color: #ffffff; }
+.gdlr-item-title-wrapper .gdlr-item-title{ color: #ffffff; border-color: #ffffff; }
+.gdlr-item-title-divider{ border-color: #444444; }
+.gdlr-item-title-wrapper .gdlr-item-title-caption{ color: #86754d; }
+body{ color: #c1c1c1; }
+a, .feature-media-caption{ color: #86754d; }
+a:hover{ color: #a57856; }
+body *{ border-color: #3d3d3d; }
+.page-not-found-block{ background-color: #d65938; }
+.page-not-found-block{ color: #ffffff; }
+.page-not-found-search  .gdl-search-form input[type="text"]{ background-color: #963a20; }
+.page-not-found-search  .gdl-search-form input[type="text"]{ color: #d57f5c; }
+.gdlr-sidebar .gdlr-widget-title{ color: #ffffff; }
+.gdlr-sidebar *{ border-color: #3d3d3d; }
+.gdlr-sidebar ul li:before { border-color: #bdbdbd; }
+.gdl-search-form input{ background-color: #2a2a2a; }
+.gdl-search-form input{ color: #9d9d9d; }
+.gdl-search-form input{ border-color: #2a2a2a; }
+.tagcloud a{ background-color: #86754d; }
+.tagcloud a, .tagcloud a:hover{ color: #ffffff; }
+.gdlr-accordion-item.style-1 .pre-active .accordion-title{ color: #ffffff; }
+.gdlr-accordion-item.style-1 .accordion-title{ color: #e9e9e9; }
+.gdlr-accordion-item.style-1 .accordion-title i{ background-color: #2d2d2d; }
+.gdlr-accordion-item.style-1 .accordion-title i{ color: #cecece; }
+.gdlr-accordion-item.style-1 .accordion-title i.icon-minus{ background-color: #86754d; }
+.gdlr-accordion-item.style-1 .accordion-title i.icon-minus{ color: #ffffff; }
+.gdlr-banner-item-wrapper .flex-direction-nav .flex-prev, .gdlr-banner-item-wrapper .flex-direction-nav .flex-next{ color: #999999; }
+.gdlr-box-with-icon-item{ background-color: #222222; }
+.gdlr-box-with-icon-item > i, .gdlr-box-with-icon-item .box-with-icon-title{ color: #ffffff; }
+.gdlr-box-with-icon-item{ color: #aaaaaa; }
+.gdlr-button, .gdlr-button:hover, input[type="button"], input[type="submit"], .gdlr-top-menu > .gdlr-mega-menu .sf-mega a.gdlr-button{ color: #ffffff; }
+.gdlr-button, input[type="button"], input[type="submit"]{ background-color: #86754d; }
+.gdlr-button{ border-color: #86754d; }
+.column-service-title{ color: #292929; }
+.column-service-content{ color: #909090; }
+.column-service-icon i{ color: #86754d; }
+.gdlr-column-service-item.gdlr-type-2 .column-service-icon{ background-color: #3e3e3e; }
+.list-with-icon .list-with-icon-title{ color: #333333; }
+.gdlr-pie-chart-item .pie-chart-title{ color: #313131; }
+.gdlr-price-inner-item{ background-color: #262626; }
+.gdlr-price-item .price-title-wrapper{ background-color: #191919; }
+.gdlr-price-item .price-title{ color: #ffffff; }
+.gdlr-price-item .price-tag{ background-color: #606060; }
+.gdlr-price-item .best-price .price-tag{ background-color: #86754d; }
+.gdlr-price-item .price-tag{ color: #ffffff; }
+.gdlr-process-tab .gdlr-process-icon{ background-color: #232323; }
+.gdlr-process-tab .gdlr-process-icon{ border-color: #3a3a3a; }
+.gdlr-process-tab .gdlr-process-icon i{ color: #e0e0e0; }
+.gdlr-process-tab .process-line .process-line-divider{ border-color: #3d3d3d; } .gdlr-process-tab .process-line .icon-chevron-down, .gdlr-process-tab .process-line .icon-chevron-right{ color: #3d3d3d; }
+.gdlr-process-wrapper .gdlr-process-tab .gdlr-process-title{ color: #ffffff; }
+.gdlr-skill-item-wrapper{ color: #3a3a3a; }
+.stunning-text-title{ color: #86754d; }
+.stunning-text-caption{ color: #e0e0e0; }
+.gdlr-stunning-text-item.gdlr-style-1 .stunning-text-button{ color: #86754d; }
+.gdlr-stunning-text-item.gdlr-style-1 .stunning-text-button{ border-color: #86754d; }
+.tab-title-wrapper .tab-title{ background-color: #3a3a3a; }
+.tab-title-wrapper .tab-title{ color: #ffffff; }
+.tab-title-wrapper .tab-title.active, .tab-content-wrapper{ background-color: #262626; }
+table tr th{ background-color: #86754d; }
+table tr th{ color: #ffffff; }
+table.style-2 tr:nth-child(odd){ background-color: #232323; }
+table.style-2 tr:nth-child(odd){ color: #a0a0a0; }
+table.style-2 tr:nth-child(even){ background-color: #303030; }
+table.style-2 tr:nth-child(even){ color: #a0a0a0; }
+.gdlr-blog-title, .gdlr-blog-title a{ color: #ffffff; }
+.gdlr-blog-title a:hover{ color: #aaaaaa; }
+.gdlr-blog-info, .gdlr-blog-info a, .gdlr-blog-info i{ color: #86754d; }
+.gdlr-blog-thumbnail .gdlr-sticky-banner{ background-color: #232323; }
+.gdlr-blog-thumbnail .gdlr-sticky-banner, .gdlr-blog-thumbnail .gdlr-sticky-banner i{ color: #ffffff; }
+.gdlr-social-share, .gdlr-social-share a{ background-color: #353535; }
+.gdlr-social-share .social-share-title{ color: #e8e8e8; }
+.gdlr-standard-style .gdlr-single-blog-tag a{ background-color: #86754d; }
+.gdlr-standard-style .gdlr-single-blog-tag a{ color: #ffffff; }
+.format-aside .gdlr-blog-content{ background-color: #86754d; }
+.format-aside .gdlr-blog-content{ color: #ffffff; }
+.format-quote .gdlr-top-quote blockquote{ color: #8d8d8d; }
+.format-quote .gdlr-quote-author{ color: #86754d; }
+.gdlr-single-nav > div i{ background-color: #f3f3f3; }
+.gdlr-single-nav > div i{ color: #8d8d8d; }
+.gdlr-outer-nav.gdlr-nav-container span i{ color: #997c65; }
+.portfolio-item-filter, .portfolio-item-filter a{ color: #ffffff; } 
+.portfolio-item-filter a.active, .portfolio-item-filter a:hover{ color: #86754d; }
+.gdlr-image-link-shortcode .gdlr-image-link-overlay, .portfolio-thumbnail .portfolio-overlay{ background-color: #ffffff; }.gdlr-image-link-shortcode .gdlr-image-link-icon, .portfolio-thumbnail .portfolio-icon i{ color: #ffffff; }.portfolio-thumbnail .product-overlay-wrapper { background: #ffffff; background: rgba(255, 255, 255,0.43); }
+.portfolio-thumbnail .portfolio-icon, .gdlr-image-link-shortcode .gdlr-image-link-icon{ background: #000000; background: rgba(0, 0, 0,0.6); }
+.portfolio-title a{ color: #86754d; }.gdlr-modern-portfolio:hover .portfolio-content-wrapper{ border-bottom-color: #86754d; }
+.portfolio-title a:hover{ color: #86754d; }
+.portfolio-info, .portfolio-info a{ color: #a2a2a2; }
+.gdlr-pagination .page-numbers{ background-color: #333333; }
+.gdlr-pagination .page-numbers{ color: #979797; }
+.gdlr-pagination .page-numbers:hover, .gdlr-pagination .page-numbers.current{ background-color: #86754d; }
+.gdlr-pagination .page-numbers:hover, .gdlr-pagination .page-numbers.current{ color: #ffffff; }
+.gdlr-personnel-item .personnel-item-inner{ background-color: #262626; }
+.gdlr-personnel-item.round-style .personnel-item{ background-color: #86754d; }
+.gdlr-personnel-item .personnel-author{ color: #ffffff; }
+.gdlr-personnel-item .personnel-author-image{ border-color: #86754d; }
+.gdlr-personnel-item .personnel-position{ color: #969696; }
+.gdlr-personnel-item .personnel-content{ color: #c4c4c4; }
+.gdlr-personnel-item .personnel-social i{ color: #3b3b3b; }
+.gdlr-testimonial-item .testimonial-item-inner, .gdlr-testimonial-item .testimonial-author-image{ background-color: #282828; }
+.gdlr-testimonial-item .testimonial-content{ color: #c9c9c9; }
+.gdlr-testimonial-item .testimonial-author{ color: #86754d; }
+.gdlr-testimonial-item .testimonial-position{ color: #ffffff; }
+.gdlr-testimonial-item .testimonial-author-image{ border-color: #86754d; }
+.gdlr-testimonial-item.box-style .testimonial-item-inner:after{ border-top-color: #393939; border-left-color: #393939; }
+.gdlr-gallery-thumbnail .gallery-item{ background-color: #3f3f3f; }
+.gdlr-gallery-thumbnail-container .gallery-caption{ background-color: #000000; }
+.gdlr-gallery-thumbnail-container .gallery-caption{ color: #f2f2f2; }
+body .ms-skin-default .ms-bullet{ background-color: #cecece; }
+body .ms-skin-default .ms-bullet.ms-bullet-selected, body .ms-skin-default .ms-bullet:hover { background-color: #86754d; }
+.nivo-controlNav a, .flex-control-paging li a{ background-color: #ffffff; }
+.nivo-controlNav a:hover, .nivo-controlNav a.active, .flex-control-paging li a:hover, .flex-control-paging li a.flex-active { background-color: #5e5e5e; }
+.nivo-controlNav a, .flex-control-paging li a{ border-color: #5e5e5e !important; }
+.nivo-directionNav a, .flex-direction-nav a, .ls-flawless .ls-nav-prev, .ls-flawless .ls-nav-next{ background-color: #000000; }
+body .nivo-directionNav a, body .flex-direction-nav a, body .flex-direction-nav a:hover, .ls-flawless .ls-nav-prev, .ls-flawless .ls-nav-next{ color: #ffffff; }
+.gdlr-caption{ background-color: #000000; }
+.gdlr-caption-title{ color: #ffffff; }
+.gdlr-caption-text{ color: #ffffff; }
+.gdlr-caption-wrapper.post-slider{ background-color: #000000; }
+.gdlr-caption-wrapper.post-slider .gdlr-caption-title{ color: #ffffff; }
+.gdlr-caption-wrapper.post-slider .gdlr-caption-text{ color: #dddddd; }
+.gdlr-post-slider-item.style-no-excerpt .gdlr-caption-wrapper .gdlr-caption-date, .gdlr-post-slider-item.style-no-excerpt .gdlr-caption-wrapper .gdlr-title-link{ color: #ffffff; }
+.gdlr-post-slider-item.style-no-excerpt .gdlr-caption-wrapper .gdlr-caption-date, .gdlr-post-slider-item.style-no-excerpt .gdlr-caption-wrapper .gdlr-title-link{ background-color: #cd9f7a; }
+input[type="text"], input[type="email"], input[type="password"], textarea{ background-color: #262626; }
+input[type="text"], input[type="email"], input[type="password"], textarea{ color: #b5b5b5; }input::input-placeholder{ color:#b5b5b5; } input::-webkit-input-placeholder{ color:#b5b5b5; }input::-moz-placeholder{ color:#b5b5b5; } input:-moz-placeholder{ color:#b5b5b5; }input:-ms-input-placeholder{ color:#b5b5b5; }textarea::input-placeholder{ color:#b5b5b5; } textarea::-webkit-input-placeholder{ color:#b5b5b5; }textarea::-moz-placeholder{ color:#b5b5b5; } textarea:-moz-placeholder{ color:#b5b5b5; }textarea:-ms-input-placeholder{ color:#b5b5b5; }
+.footer-wrapper{ background-color: #212121; }
+.footer-wrapper .gdlr-widget-title, .footer-wrapper .gdlr-widget-title a{ color: #dddddd; }
+.footer-wrapper{ color: #bfbfbf; }
+.footer-wrapper a{ color: #7f7f7f; }
+.footer-wrapper a:hover{ color: #cecece; }
+.footer-wrapper *{ border-color: #363636; }
+.footer-wrapper input[type="text"], .footer-wrapper input[type="email"], .footer-wrapper input[type="password"], .footer-wrapper textarea{ background-color: #141414; }
+.footer-wrapper input[type="text"], .footer-wrapper input[type="email"], .footer-wrapper input[type="password"], .footer-wrapper textarea{ color: #828282; }
+.footer-wrapper input[type="text"], .footer-wrapper input[type="email"], .footer-wrapper input[type="password"], .footer-wrapper textarea{ border-color: #313131; }
+.footer-wrapper .gdlr-button, .footer-wrapper .gdlr-button:hover, .footer-wrapper input[type="button"], .footer-wrapper input[type="submit"]{ color: #ffffff; }
+.footer-wrapper .gdlr-button, .footer-wrapper input[type="button"], .footer-wrapper input[type="submit"]{ background-color: #86754d; }
+.footer-wrapper .tagcloud a{ background-color: #86754d; }
+.footer-wrapper .tagcloud a, .footer-wrapper .tagcloud a:hover{ color: #ffffff; }
+.copyright-wrapper{ background-color: #0f0f0f; }
+.copyright-wrapper{ color: #828282; }
+.footer-wrapper .copyright-wrapper{ border-color: #333333; }
+html  .woocommerce span.onsale, html  .woocommerce-page span.onsale, html .woocommerce-message,html .woocommerce div.product .woocommerce-tabs ul.tabs li.active, html .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active,html .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active, html .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active {  background: #cd9f7a; }html .woocommerce .star-rating, html .woocommerce-page .star-rating, html .woocommerce .star-rating:before, html .woocommerce-page .star-rating:before, html .woocommerce div.product span.price, html .woocommerce div.product p.price, html .woocommerce #content div.product span.price, html .woocommerce #content div.product p.price, html .woocommerce-page div.product span.price, html .woocommerce-page div.product p.price, html .woocommerce-page #content div.product span.price, html .woocommerce-page #content div.product p.price {color: #cd9f7a; }
+html .woocommerce-message  a.button, html .woocommerce-error  a.button, html .woocommerce-info  a.button, html .woocommerce-message, html .woocommerce-error, html .woocommerce-info, html  .woocommerce span.onsale, html  .woocommerce-page span.onsale, html .woocommerce div.product .woocommerce-tabs ul.tabs li.active,html .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active, html .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active, html .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active, html .woocommerce nav.woocommerce-pagination ul li span.current, html .woocommerce-page nav.woocommerce-pagination ul li span.current, html .woocommercenav.woocommerce-pagination ul li a:hover, html .woocommerce-page nav.woocommerce-pagination ul li a:hover{ color: #ffffff; }
+html .woocommerce-info{ background: #389EC5; }
+html .woocommerce-error{ background: #C23030; }
+html .woocommerce a.button.alt:hover, html .woocommerce button.button.alt:hover, html .woocommerce input.button.alt:hover, html .woocommerce #respond input#submit.alt:hover, html .woocommerce #content input.button.alt:hover, html .woocommerce-page a.button.alt:hover, html .woocommerce-page button.button.alt:hover, html .woocommerce-page input.button.alt:hover, html .woocommerce-page #respond input#submit.alt:hover, html .woocommerce-page #content input.button.alt:hover, html .woocommerce a.button.alt, html .woocommerce button.button.alt, html .woocommerce input.button.alt, html .woocommerce #respond input#submit.alt, html .woocommerce #content input.button.alt, html .woocommerce-page a.button.alt, html .woocommerce-page button.button.alt, html .woocommerce-page input.button.alt, html .woocommerce-page #respond input#submit.alt, html .woocommerce-page #content input.button.alt, html .woocommerce a.button, html .woocommerce button.button, html .woocommerce input.button, html .woocommerce #respond input#submit, html .woocommerce #content input.button, html .woocommerce-page a.button, html .woocommerce-page button.button, html .woocommerce-page input.button, html .woocommerce-page #respond input#submit, html .woocommerce-page #content input.button, html .woocommerce a.button:hover, html .woocommerce button.button:hover, html .woocommerce input.button:hover, html .woocommerce #respond input#submit:hover, html .woocommerce #content input.button:hover, html .woocommerce-page a.button:hover, html .woocommerce-page button.button:hover, html .woocommerce-page input.button:hover, html .woocommerce-page #respond input#submit:hover, html .woocommerce-page #content input.button:hover, html .woocommerce ul.products li.product a.loading, html .woocommerce div.product form.cart .button, html .woocommerce #content div.product form.cart .button, html .woocommerce-page div.product form.cart .button, html .woocommerce-page #content div.product form.cart .button{ background: #cd9f7a; }
+html .woocommerce a.button.alt:hover, html .woocommerce button.button.alt:hover, html .woocommerce input.button.alt:hover, html .woocommerce #respond input#submit.alt:hover, html .woocommerce #content input.button.alt:hover, html .woocommerce-page a.button.alt:hover, html .woocommerce-page button.button.alt:hover, html .woocommerce-page input.button.alt:hover, html .woocommerce-page #respond input#submit.alt:hover, html .woocommerce-page #content input.button.alt:hover, html .woocommerce a.button.alt, html .woocommerce button.button.alt, html .woocommerce input.button.alt, html .woocommerce #respond input#submit.alt, html .woocommerce #content input.button.alt, html .woocommerce-page a.button.alt, html .woocommerce-page button.button.alt, html .woocommerce-page input.button.alt, html .woocommerce-page #respond input#submit.alt, html .woocommerce-page #content input.button.alt, html .woocommerce a.button, html .woocommerce button.button, html .woocommerce input.button, html .woocommerce #respond input#submit, html .woocommerce #content input.button, html .woocommerce-page a.button, html .woocommerce-page button.button, html .woocommerce-page input.button, html .woocommerce-page #respond input#submit, html .woocommerce-page #content input.button, html .woocommerce a.button:hover, html .woocommerce button.button:hover, html .woocommerce input.button:hover, html .woocommerce #respond input#submit:hover, html .woocommerce #content input.button:hover, html .woocommerce-page a.button:hover, html .woocommerce-page button.button:hover, html .woocommerce-page input.button:hover, html .woocommerce-page #respond input#submit:hover, html .woocommerce-page #content input.button:hover, html .woocommerce ul.products li.product a.loading, html .woocommerce div.product form.cart .button, html .woocommerce #content div.product form.cart .button, html .woocommerce-page div.product form.cart .button, html .woocommerce-page #content div.product form.cart .button{ color: #ffffff; }
+html .woocommerce a.button.alt:hover, html .woocommerce button.button.alt:hover, html .woocommerce input.button.alt:hover, html .woocommerce #respond input#submit.alt:hover, html .woocommerce #content input.button.alt:hover, html .woocommerce-page a.button.alt:hover, html .woocommerce-page button.button.alt:hover, html .woocommerce-page input.button.alt:hover, html .woocommerce-page #respond input#submit.alt:hover, html .woocommerce-page #content input.button.alt:hover, html .woocommerce a.button.alt, html .woocommerce button.button.alt, html .woocommerce input.button.alt, html .woocommerce #respond input#submit.alt, html .woocommerce #content input.button.alt, html .woocommerce-page a.button.alt, html .woocommerce-page button.button.alt, html .woocommerce-page input.button.alt, html .woocommerce-page #respond input#submit.alt, html .woocommerce-page #content input.button.alt, html .woocommerce a.button, html .woocommerce button.button, html .woocommerce input.button, html .woocommerce #respond input#submit, html .woocommerce #content input.button, html .woocommerce-page a.button, html .woocommerce-page button.button, html .woocommerce-page input.button, html .woocommerce-page #respond input#submit, html .woocommerce-page #content input.button, html .woocommerce a.button:hover, html .woocommerce button.button:hover, html .woocommerce input.button:hover, html .woocommerce #respond input#submit:hover, html .woocommerce #content input.button:hover, html .woocommerce-page a.button:hover, html .woocommerce-page button.button:hover, html .woocommerce-page input.button:hover, html .woocommerce-page #respond input#submit:hover, html .woocommerce-page #content input.button:hover, html .woocommerce ul.products li.product a.loading, html .woocommerce div.product form.cart .button, html .woocommerce #content div.product form.cart .button, html .woocommerce-page div.product form.cart .button, html .woocommerce-page #content div.product form.cart .button{ border-bottom: 3px solid #cc8953; }
+html .woocommerce #reviews #comments ol.commentlist li img.avatar, html .woocommerce-page #reviews #comments ol.commentlist li img.avatar { background: #ebebeb; }html .woocommerce #reviews #comments ol.commentlist li img.avatar, html .woocommerce-page #reviews #comments ol.commentlist li img.avatar,html .woocommerce #reviews #comments ol.commentlist li .comment-text, html .woocommerce-page #reviews #comments ol.commentlist li .comment-text,html .woocommerce ul.products li.product a img, html .woocommerce-page ul.products li.product a img, html .woocommerce ul.products li.product a img:hover ,html .woocommerce-page ul.products li.product a img:hover, html .woocommerce-page div.product div.images img, html .woocommerce-page #content div.product div.images img,html .woocommerce form.login, html .woocommerce form.checkout_coupon, html .woocommerce form.register, html .woocommerce-page form.login,html .woocommerce-page form.checkout_coupon, html .woocommerce-page form.register, html .woocommerce table.cart td.actions .coupon .input-text,html .woocommerce #content table.cart td.actions .coupon .input-text, html .woocommerce-page table.cart td.actions .coupon .input-text,html .woocommerce-page #content table.cart td.actions .coupon .input-text { border: 1px solid #ebebeb; }html .woocommerce div.product .woocommerce-tabs ul.tabs:before, html .woocommerce #content div.product .woocommerce-tabs ul.tabs:before,html .woocommerce-page div.product .woocommerce-tabs ul.tabs:before, html .woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before,html .woocommerce table.shop_table tfoot td, html .woocommerce table.shop_table tfoot th, html .woocommerce-page table.shop_table tfoot td,html .woocommerce-page table.shop_table tfoot th, html .woocommerce table.shop_table tfoot td, html .woocommerce table.shop_table tfoot th,html .woocommerce-page table.shop_table tfoot td, html .woocommerce-page table.shop_table tfoot th { border-bottom: 1px solid #ebebeb; }html .woocommerce .cart-collaterals .cart_totals table tr:first-child th, html .woocommerce .cart-collaterals .cart_totals table tr:first-child td,html .woocommerce-page .cart-collaterals .cart_totals table tr:first-child th, html .woocommerce-page .cart-collaterals .cart_totals table tr:first-child td { border-top: 3px #ebebeb solid; }html .woocommerce .cart-collaterals .cart_totals tr td, html .woocommerce .cart-collaterals .cart_totals tr th,html .woocommerce-page .cart-collaterals .cart_totals tr td, html .woocommerce-page .cart-collaterals .cart_totals tr th { border-bottom: 2px solid #ebebeb; }
+html .woocommerce div.product .woocommerce-tabs ul.tabs li, html .woocommerce #content div.product .woocommerce-tabs ul.tabs li, html .woocommerce-page div.product .woocommerce-tabs ul.tabs li, html .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li ,html .woocommerce table.cart a.remove, html .woocommerce #content table.cart a.remove, html .woocommerce-page table.cart a.remove, html .woocommerce-page #content table.cart a.remove, html .woocommerce #payment, html .woocommerce-page #payment, html .woocommerce .customer_details,html .woocommerce ul.order_details, html .woocommerce nav.woocommerce-pagination ul li a, html .woocommerce-page nav.woocommerce-pagination ul li a,html .woocommerce form .form-row input.input-text, html .woocommerce form .form-row textarea, html .woocommerce-page form .form-row input.input-text, html .woocommerce-page form .form-row textarea, html .woocommerce .quantity input.qty, html .woocommerce #content .quantity input.qty, html .woocommerce-page .quantity input.qty, html .woocommerce-page #content .quantity input.qty,html .woocommerce .widget_shopping_cart .total, html .woocommerce-page .widget_shopping_cart .total { background: #f3f3f3; }html .woocommerce .quantity input.qty, html .woocommerce #content .quantity input.qty, html .woocommerce-page .quantity input.qty, html .woocommerce-page #content .quantity input.qty { border: 1px solid #f3f3f3; }
+html .woocommerce .widget_shopping_cart .total, html .woocommerce-page .widget_shopping_cart .total { border-top: 2px solid #e5e5e5; }html .woocommerce table.cart a.remove:hover, html .woocommerce #content table.cart a.remove:hover, html .woocommerce-page table.cart a.remove:hover,html .woocommerce-page #content table.cart a.remove:hover, html #payment div.payment_box, html .woocommerce-page #payment div.payment_box { background: #e5e5e5; }
+html .woocommerce table.shop_table tfoot td, html .woocommerce table.shop_table tfoot th, html .woocommerce-page table.shop_table tfoot td,html .woocommerce-page table.shop_table tfoot th, .cart-subtotal th, .shipping th , .total th, html .woocommerce table.shop_attributes .alt th,html .woocommerce-page table.shop_attributes .alt th, html .woocommerce ul.products li.product .price, html.woocommerce-page ul.products li.product .price { color: #333333; }
+html .woocommerce ul.products li.product .price del, html .woocommerce-page ul.products li.product .price del,html .woocommerce table.cart a.remove, html .woocommerce #content table.cart a.remove, html .woocommerce-page table.cart a.remove,html .woocommerce-page #content table.cart a.remove { color: #888888; }
+html .woocommerce .quantity .plus, html .woocommerce .quantity .minus, html .woocommerce #content .quantity .plus, html .woocommerce #content .quantity .minus, 
+												html .woocommerce-page .quantity .plus, html .woocommerce-page .quantity .minus, html .woocommerce-page #content .quantity .plus, 
+												html .woocommerce-page #content .quantity .minus { border: 1px solid #a0a0a0; }
+html .woocommerce .quantity .plus, html .woocommerce .quantity .minus, html .woocommerce #content .quantity .plus, html .woocommerce #content .quantity .minus, 
+												html .woocommerce-page .quantity .plus, html .woocommerce-page .quantity .minus, html .woocommerce-page #content .quantity .plus, 
+												html .woocommerce-page #content .quantity .minus { color: #ffffff; }
+html .woocommerce .quantity .plus, html .woocommerce #content .quantity .plus,  html .woocommerce-page .quantity .plus,html .woocommerce-page #content .quantity .plus, html .woocommerce .quantity .plus:hover, html .woocommerce #content .quantity .plus:hover,html .woocommerce-page .quantity .plus:hover,  html .woocommerce-page #content .quantity .plus:hover{ background: #9a9a9a; }
+html .woocommerce .quantity .minus, html .woocommerce #content .quantity .minus,  html .woocommerce-page .quantity .minus,html .woocommerce-page #content .quantity .minus, html .woocommerce .quantity .minus:hover, html .woocommerce #content .quantity .minus:hover,html .woocommerce-page .quantity .minus:hover,  html .woocommerce-page #content .quantity .minus:hover{ background: #b6b6b6; }
+.gdlr-skin-dark-skin, .gdlr-skin-dark-skin .gdlr-skin-content{ color: #ffffff; }
+.gdlr-skin-dark-skin i, .gdlr-skin-dark-skin .gdlr-flex-prev, .gdlr-skin-dark-skin .gdlr-flex-next{ color: #ffffff; }
+.gdlr-skin-dark-skin h1, .gdlr-skin-dark-skin h2, .gdlr-skin-dark-skin h3, .gdlr-skin-dark-skin h4, .gdlr-skin-dark-skin h5, .gdlr-skin-dark-skin h6, .gdlr-skin-dark-skin .gdlr-skin-title, .gdlr-skin-dark-skin .gdlr-skin-title a{ color: #ffffff; }
+.gdlr-skin-dark-skin .gdlr-skin-title a:hover{ color: #ffffff; }
+.gdlr-skin-dark-skin .gdlr-skin-info, .gdlr-skin-dark-skin .gdlr-skin-info a, .gdlr-skin-dark-skin .gdlr-skin-info a:hover{ color: #ffffff; }
+.gdlr-skin-dark-skin a, .gdlr-skin-dark-skin .gdlr-skin-link, .gdlr-skin-dark-skin .gdlr-skin-link-color{ color: #86754d; }
+.gdlr-skin-dark-skin a:hover, .gdlr-skin-dark-skin .gdlr-skin-link:hover{ color: #ffffff; }
+.gdlr-skin-dark-skin .gdlr-skin-box, .gdlr-skin-dark-skin .gdlr-column-service-item .gdlr-skin-box{ background-color: #969696; }
+.gdlr-skin-dark-skin *, .gdlr-skin-dark-skin .gdlr-skin-border{ border-color: #ffffff; }
+.gdlr-skin-dark-skin .gdlr-button, .gdlr-skin-dark-skin .gdlr-button:hover, .gdlr-skin-dark-skin input[type="button"], .gdlr-skin-dark-skin input[type="submit"]{ color: #ffffff; background-color: #39dde3;  }
+.gdlr-skin-dark-skin .gdlr-stunning-text-item.gdlr-style-1 .stunning-text-button{ color: #ffffff; border-color: #ffffff; }.gdlr-skin-dark-skin .gdlr-outer-nav.gdlr-nav-container span{ background-image: url('../images/light/carousel-nav.png'); } .gdlr-skin-gold, .gdlr-skin-gold .gdlr-skin-content{ color: #c7c7c7; }
+.gdlr-skin-gold i, .gdlr-skin-gold .gdlr-flex-prev, .gdlr-skin-gold .gdlr-flex-next{ color: #ffffff; }
+.gdlr-skin-gold h1, .gdlr-skin-gold h2, .gdlr-skin-gold h3, .gdlr-skin-gold h4, .gdlr-skin-gold h5, .gdlr-skin-gold h6, .gdlr-skin-gold .gdlr-skin-title, .gdlr-skin-gold .gdlr-skin-title a{ color: #86754d; }
+.gdlr-skin-gold .gdlr-skin-title a:hover{ color: #ffffff; }
+.gdlr-skin-gold .gdlr-skin-info, .gdlr-skin-gold .gdlr-skin-info a, .gdlr-skin-gold .gdlr-skin-info a:hover{ color: #ffffff; }
+.gdlr-skin-gold a, .gdlr-skin-gold .gdlr-skin-link, .gdlr-skin-gold .gdlr-skin-link-color{ color: #ffffff; }
+.gdlr-skin-gold a:hover, .gdlr-skin-gold .gdlr-skin-link:hover{ color: #ffffff; }
+.gdlr-skin-gold .gdlr-skin-box, .gdlr-skin-gold .gdlr-column-service-item .gdlr-skin-box{ background-color: #ffffff; }
+.gdlr-skin-gold *, .gdlr-skin-gold .gdlr-skin-border{ border-color: #ffffff; }
+.gdlr-skin-gold .gdlr-button, .gdlr-skin-gold .gdlr-button:hover, .gdlr-skin-gold input[type="button"], .gdlr-skin-gold input[type="submit"]{ color: #ffffff; background-color: #ffffff;  }
+.gdlr-skin-gold .gdlr-stunning-text-item.gdlr-style-1 .stunning-text-button{ color: #ffffff; border-color: #ffffff; }.gdlr-skin-light-gold, .gdlr-skin-light-gold .gdlr-skin-content{ color: #7f7f7f; }
+.gdlr-skin-light-gold i, .gdlr-skin-light-gold .gdlr-flex-prev, .gdlr-skin-light-gold .gdlr-flex-next{ color: #cd9f7a; }
+.gdlr-skin-light-gold h1, .gdlr-skin-light-gold h2, .gdlr-skin-light-gold h3, .gdlr-skin-light-gold h4, .gdlr-skin-light-gold h5, .gdlr-skin-light-gold h6, .gdlr-skin-light-gold .gdlr-skin-title, .gdlr-skin-light-gold .gdlr-skin-title a{ color: #6d6d6d; }
+.gdlr-skin-light-gold .gdlr-skin-title a:hover{ color: #9b9b9b; }
+.gdlr-skin-light-gold .gdlr-skin-info, .gdlr-skin-light-gold .gdlr-skin-info a, .gdlr-skin-light-gold .gdlr-skin-info a:hover{ color: #777777; }
+.gdlr-skin-light-gold a, .gdlr-skin-light-gold .gdlr-skin-link, .gdlr-skin-light-gold .gdlr-skin-link-color{ color: #86754d; }
+.gdlr-skin-light-gold a:hover, .gdlr-skin-light-gold .gdlr-skin-link:hover{ color: #ccaf99; }
+.gdlr-skin-light-gold .gdlr-skin-box, .gdlr-skin-light-gold .gdlr-column-service-item .gdlr-skin-box{ background-color: #cd9f7a; }
+.gdlr-skin-light-gold *, .gdlr-skin-light-gold .gdlr-skin-border{ border-color: #efefef; }
+.gdlr-skin-light-gold .gdlr-button, .gdlr-skin-light-gold .gdlr-button:hover, .gdlr-skin-light-gold input[type="button"], .gdlr-skin-light-gold input[type="submit"]{ color: #4f4f4f; background-color: #cd9f7a;  }
+.gdlr-skin-light-gold .gdlr-stunning-text-item.gdlr-style-1 .stunning-text-button{ color: #4f4f4f; border-color: #4f4f4f; }.gdlr-skin-grey, .gdlr-skin-grey .gdlr-skin-content{ color: #494949; }
+.gdlr-skin-grey i, .gdlr-skin-grey .gdlr-flex-prev, .gdlr-skin-grey .gdlr-flex-next{ color: #cd9f7a; }
+.gdlr-skin-grey h1, .gdlr-skin-grey h2, .gdlr-skin-grey h3, .gdlr-skin-grey h4, .gdlr-skin-grey h5, .gdlr-skin-grey h6, .gdlr-skin-grey .gdlr-skin-title, .gdlr-skin-grey .gdlr-skin-title a{ color: #ffffff; }
+.gdlr-skin-grey .gdlr-skin-title a:hover{ color: #ffffff; }
+.gdlr-skin-grey .gdlr-skin-info, .gdlr-skin-grey .gdlr-skin-info a, .gdlr-skin-grey .gdlr-skin-info a:hover{ color: #5e5e5e; }
+.gdlr-skin-grey a, .gdlr-skin-grey .gdlr-skin-link, .gdlr-skin-grey .gdlr-skin-link-color{ color: #cd9f7a; }
+.gdlr-skin-grey a:hover, .gdlr-skin-grey .gdlr-skin-link:hover{ color: #ccb4a3; }
+.gdlr-skin-grey .gdlr-skin-box, .gdlr-skin-grey .gdlr-column-service-item .gdlr-skin-box{ background-color: #cd9f7a; }
+.gdlr-skin-grey *, .gdlr-skin-grey .gdlr-skin-border{ border-color: #4c4c4c; }
+.gdlr-skin-grey .gdlr-button, .gdlr-skin-grey .gdlr-button:hover, .gdlr-skin-grey input[type="button"], .gdlr-skin-grey input[type="submit"]{ color: #ffffff; background-color: cd9f7a;  }
+.gdlr-skin-grey .gdlr-stunning-text-item.gdlr-style-1 .stunning-text-button{ color: #ffffff; border-color: #ffffff; }.gdlr-skin-dark-gold, .gdlr-skin-dark-gold .gdlr-skin-content{ color: #ffffff; }
+.gdlr-skin-dark-gold i, .gdlr-skin-dark-gold .gdlr-flex-prev, .gdlr-skin-dark-gold .gdlr-flex-next{ color: #ffffff; }
+.gdlr-skin-dark-gold h1, .gdlr-skin-dark-gold h2, .gdlr-skin-dark-gold h3, .gdlr-skin-dark-gold h4, .gdlr-skin-dark-gold h5, .gdlr-skin-dark-gold h6, .gdlr-skin-dark-gold .gdlr-skin-title, .gdlr-skin-dark-gold .gdlr-skin-title a{ color: #ecd5c1; }
+.gdlr-skin-dark-gold .gdlr-skin-title a:hover{ color: #ffffff; }
+.gdlr-skin-dark-gold .gdlr-skin-info, .gdlr-skin-dark-gold .gdlr-skin-info a, .gdlr-skin-dark-gold .gdlr-skin-info a:hover{ color: 86754D; }
+.gdlr-skin-dark-gold a, .gdlr-skin-dark-gold .gdlr-skin-link, .gdlr-skin-dark-gold .gdlr-skin-link-color{ color: #ffffff; }
+.gdlr-skin-dark-gold a:hover, .gdlr-skin-dark-gold .gdlr-skin-link:hover{ color: #ffffff; }
+.gdlr-skin-dark-gold .gdlr-skin-box, .gdlr-skin-dark-gold .gdlr-column-service-item .gdlr-skin-box{ background-color: #ffffff; }
+.gdlr-skin-dark-gold *, .gdlr-skin-dark-gold .gdlr-skin-border{ border-color: #ffffff; }
+.gdlr-skin-dark-gold .gdlr-button, .gdlr-skin-dark-gold .gdlr-button:hover, .gdlr-skin-dark-gold input[type="button"], .gdlr-skin-dark-gold input[type="submit"]{ color: #ffffff; background-color: #ffffff;  }
+.gdlr-skin-dark-gold .gdlr-stunning-text-item.gdlr-style-1 .stunning-text-button{ color: #ffffff; border-color: #ffffff; }body .ms-slide .ms-slide-video {
+z-index: 9999999;
+position: fixed;
+}
+
+.gdlr-shortcode-wrapper .three:nth-child(1) .gdlr-process-icon .fa.fa-chevron-right:before {
+    content: "1";
+font-weight: bold;
+}
+
+.gdlr-shortcode-wrapper .three:nth-child(2) .gdlr-process-icon .fa.fa-chevron-right:before {
+    content: "2";
+font-weight: bold;
+}
+
+.gdlr-shortcode-wrapper .three:nth-child(3) .gdlr-process-icon .fa.fa-chevron-right:before {
+    content: "3";
+font-weight: bold;
+}
+
+.gdlr-shortcode-wrapper .three:nth-child(4) .gdlr-process-icon .fa.fa-chevron-right:before {
+    content: "4";
+font-weight: bold;
+}
+
+.gdlr-navigation-wrapper .gdlr-main-menu > li > a
+{
+font-style:normal;
+}
+
+.gdlr-navigation-wrapper .gdlr-main-menu > li {
+padding: 0px 20px 35px 0px;
+}
+
+p.benefits-height {
+    min-height: 77px;
+}
+
+div#copyright-link-con {
+    padding: 0;
+    padding-top: 20px;
+    border-top: 1px solid #363636;
+}
+
+.gdlr-item {
+    margin: 0px 15px 0px 15px;
+}
+
+div#copyright-link-con {
+    padding: 0;
+    padding-top: 20px;
+    border-top: 1px solid #363636;
+}
+
+#the-nature .gdlr-item-title-caption.gdlr-skin-info {
+    margin: 0 !important;
+}
+
+.gdlr-item-title-divider {
+border-color: #a28e56;
+}
+
+.gdlr-chart .chart-content-wrapper .chart-percent-number {
+color: #a28e56 !important;
+margin-top: -22px !important;
+}
+
+.gdlr-color-wrapper, .gdlr-parallax-wrapper {
+background-size: cover !important; 
+}
+
+.gdlr-item-title-wrapper .gdlr-item-title-caption {
+margin-top: 7px;
+}
+
+.gdlr-process-wrapper .gdlr-process-tab .gdlr-process-title {
+font-size: 16px;
+}
+
+select {
+background-color: #262626;
+    color: #b5b5b5;
+font-size:13px;
+    height: 52px;
+    width: 103.5%;
+    border: none;
+    border-radius: 0 !important;
+ -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 16px 19px;
+}
+
+.gdlr-logo {
+    min-width: 233px !important;
+    max-width:450px;
+ margin-left: 0;
+ margin-right: 0;
+margin-top: 31px;
+
+}
+
+.gdlr-stunning-text-item.gdlr-style-2 .stunning-text-caption {
+ font-size: 16px;
+}
+
+.gdlr-accordion-item.style-1 .accordion-title {
+font-weight: 600;
+}
+
+p {
+font-size: 16px;
+}
+
+#gdlr-menu-search-button, .gdlr-menu-search-button-sep {
+display: none;
+}
+
+.gdlr-navigation-wrapper {
+padding-right: 0;
+}
