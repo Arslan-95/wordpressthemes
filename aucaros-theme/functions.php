@@ -41,9 +41,22 @@ function scripts_and_styles_load(){
     wp_enqueue_script('plugins-scroll', get_template_directory_uri() . '/assets/js/plugins-scroll.js', array(), false, true);
 }
 
-add_action('after_setup_theme', 'content_settings_up');
+add_action( 'after_setup_theme', 'menu_reg_fnc' );
+
+function menu_reg_fnc(){
+    register_nav_menu( 'primary', 'primary-menu' );
+}
+
+add_filter( 'nav_menu_css_class', 'add_auracos_class_to_nav_menu', 10, 2 );
+function add_auracos_class_to_nav_menu( $classes, $item ){
+	$classes[] = 'gdlr-normal-menu';
+	return $classes;
+}
+
+// Load content editor for Theme
+add_action( 'after_setup_theme', 'content_settings_up' );
 
 function content_settings_up(){
-    require_once(__DIR__ . '/content_settings/admin-settings.php');
-    require_once(__DIR__ . '/content_settings/landing-page.php');
+    require_once( __DIR__ . '/content_settings/admin-settings.php' );
+    require_once( __DIR__ . '/content_settings/landing-page.php' );
 }

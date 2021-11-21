@@ -105,9 +105,9 @@
 							<div id="text-9" class="widget widget_text gdlr-item gdlr-widget">
 								<h3 class="gdlr-widget-title">Quick Navigation</h3>
 								<div class="clear"></div>
-								<div class="textwidget"><a href="http://procollagenium.com/about/#philo">Philosophy</a><br>
-									<a href="http://procollagenium.com/about/#values">Values</a><br>
-									<a href="http://procollagenium.com/about/#global">Global Presence</a>
+								<div class="textwidget"><a href="#philo">Philosophy</a><br>
+									<a href="#values">Values</a><br>
+									<a href="#global">Global Presence</a>
 								</div>
 							</div>
 						</div>

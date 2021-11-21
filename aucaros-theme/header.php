@@ -48,7 +48,27 @@
                   </div>
                   <!-- navigation -->
                   <div class="gdlr-navigation-wrapper">
-                     <nav class="gdlr-navigation" id="gdlr-main-navigation" role="navigation">
+                     <?php
+                        wp_nav_menu( [
+                           'theme_location'  => 'primary',
+                           'menu'            => 'primary',
+                           'container'       => 'nav',
+                           'container_class' => 'gdlr-navigation',
+                           'container_id'    => 'gdlr-main-navigation',
+                           'menu_class'      => 'sf-menu gdlr-main-menu',
+                           'menu_id'         => 'menu-main-1',
+                           'echo'            => true,
+                           'fallback_cb'     => 'wp_page_menu',
+                           // 'before'          => '',
+                           // 'after'           => '',
+                           // 'link_before'     => '',
+                           // 'link_after'      => '',
+                           'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                           'depth'           => 0,
+                           'walker'          => '',
+                        ] );
+                     ?>
+                     <!-- <nav class="gdlr-navigation" id="gdlr-main-navigation" role="navigation">
                         <ul id="menu-main-1" class="sf-menu gdlr-main-menu">
                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3266menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3266 gdlr-normal-menu"><a href="#home">Home</a></li>
                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3267menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3267 gdlr-normal-menu"><a href="#discover">Discover</a></li>
@@ -65,7 +85,7 @@
                               </ul>
                            </li>
                         </ul>
-                     </nav>
+                     </nav> -->
                      <span class="gdlr-menu-search-button-sep">•</span>
                      <i class="fa fa-search icon-search gdlr-menu-search-button" id="gdlr-menu-search-button"></i>
                      <div class="gdlr-menu-search" id="gdlr-menu-search">
