@@ -1,4 +1,9 @@
-<!-- is search -->	
+<?php
+/*
+	Template Name: about
+*/
+?>
+<?php get_header(); ?>
 <div class="content-wrapper">
 	<div class="gdlr-content">
 		<!-- Above Sidebar Section-->
@@ -131,3 +136,4 @@
 	<!-- gdlr-content -->
 	<div class="clear"></div>
 </div>
+<?php get_footer(); ?>
