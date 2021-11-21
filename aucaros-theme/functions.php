@@ -40,3 +40,10 @@ function scripts_and_styles_load(){
     wp_enqueue_script('jquery-easy-pie-chart', get_template_directory_uri() . '/assets/js/jquery.easy-pie-chart.js', array(), false, true);
     wp_enqueue_script('plugins-scroll', get_template_directory_uri() . '/assets/js/plugins-scroll.js', array(), false, true);
 }
+
+add_action('after_setup_theme', 'content_settings_up');
+
+function content_settings_up(){
+    require_once(__DIR__ . '/content_settings/admin-settings.php');
+    require_once(__DIR__ . '/content_settings/landing-page.php');
+}
