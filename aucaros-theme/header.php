@@ -28,22 +28,22 @@
                      </a>
                      <div class="gdlr-responsive-navigation dl-menuwrapper" id="gdlr-responsive-navigation">
                         <button class="dl-trigger">Open Menu</button>
-                        <ul id="menu-main" class="dl-menu gdlr-main-mobile-menu">
-                           <li id="menu-item-3266" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3266"><a href="#home">Home</a></li>
-                           <li id="menu-item-3267" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3267"><a href="#discover">Discover</a></li>
-                           <li id="menu-item-3728" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3728"><a href="#benefits">Benefits</a></li>
-                           <li id="menu-item-3268" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3268"><a href="#thescience">The Science</a></li>
-                           <li id="menu-item-3452" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3452"><a href="#contact">Contact</a></li>
-                           <li id="menu-item-3742" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3742"><a href="/about/">About</a></li>
-                           <li id="menu-item-3814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3814"><a href="/faqs/">FAQs</a></li>
-                           <li id="menu-item-3846" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3846">
-                              <a href="#">Language</a>
-                              <ul class="dl-submenu">
-                                 <li id="menu-item-3847" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3847"><a href="/fr">Français</a></li>
-                                 <li id="menu-item-3827" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3827"><a href="/ar/">العربية</a></li>
-                              </ul>
-                           </li>
-                        </ul>
+                        <?php                        
+                           wp_nav_menu( [
+                              'theme_location'  => 'primary',
+                              'menu'            => 'primary',
+                              'container'       => null,
+                              'container_class' => '',
+                              'container_id'    => '',
+                              'menu_class'      => 'dl-menu gdlr-main-mobile-menu',
+                              'menu_id'         => 'menu-main',
+                              'echo'            => true,
+                              'fallback_cb'     => 'wp_page_menu',
+                              'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                              'depth'           => 0,
+                              'walker'          => '',
+                           ] );
+                        ?>
                      </div>
                   </div>
                   <!-- navigation -->
@@ -59,33 +59,11 @@
                            'menu_id'         => 'menu-main-1',
                            'echo'            => true,
                            'fallback_cb'     => 'wp_page_menu',
-                           // 'before'          => '',
-                           // 'after'           => '',
-                           // 'link_before'     => '',
-                           // 'link_after'      => '',
                            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
                            'depth'           => 0,
                            'walker'          => '',
                         ] );
                      ?>
-                     <!-- <nav class="gdlr-navigation" id="gdlr-main-navigation" role="navigation">
-                        <ul id="menu-main-1" class="sf-menu gdlr-main-menu">
-                           <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3266menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3266 gdlr-normal-menu"><a href="#home">Home</a></li>
-                           <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3267menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3267 gdlr-normal-menu"><a href="#discover">Discover</a></li>
-                           <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3728menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3728 gdlr-normal-menu"><a href="#benefits">Benefits</a></li>
-                           <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3268menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3268 gdlr-normal-menu"><a href="#thescience">The Science</a></li>
-                           <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3452menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3452 gdlr-normal-menu"><a href="#contact">Contact</a></li>
-                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3742menu-item menu-item-type-post_type menu-item-object-page menu-item-3742 gdlr-normal-menu"><a href="/about/">About</a></li>
-                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3814menu-item menu-item-type-post_type menu-item-object-page menu-item-3814 gdlr-normal-menu"><a href="/faqs/">FAQs</a></li>
-                           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3846menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3846 gdlr-normal-menu">
-                              <a href="#" class="sf-with-ul">Language</a>
-                              <ul class="sub-menu" style="display: none;">
-                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3847"><a href="/fr">Français</a></li>
-                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3827"><a href="/ar/">العربية</a></li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </nav> -->
                      <span class="gdlr-menu-search-button-sep">•</span>
                      <i class="fa fa-search icon-search gdlr-menu-search-button" id="gdlr-menu-search-button"></i>
                      <div class="gdlr-menu-search" id="gdlr-menu-search">

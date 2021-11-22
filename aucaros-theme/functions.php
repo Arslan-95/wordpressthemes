@@ -41,6 +41,7 @@ function scripts_and_styles_load(){
     wp_enqueue_script('plugins-scroll', get_template_directory_uri() . '/assets/js/plugins-scroll.js', array(), false, true);
 }
 
+// Menu fncs.
 add_action( 'after_setup_theme', 'menu_reg_fnc' );
 
 function menu_reg_fnc(){
@@ -50,8 +51,15 @@ function menu_reg_fnc(){
 add_filter( 'nav_menu_css_class', 'add_auracos_class_to_nav_menu', 10, 2 );
 function add_auracos_class_to_nav_menu( $classes, $item ){
 	$classes[] = 'gdlr-normal-menu';
+    
 	return $classes;
 }
+
+function my_nav_menu_submenu_css_class( $classes ) {
+    $classes[] = 'dl-submenu';
+    return $classes;
+}
+add_filter( 'nav_menu_submenu_css_class', 'my_nav_menu_submenu_css_class' );
 
 // Load content editor for Theme
 add_action( 'after_setup_theme', 'content_settings_up' );
@@ -60,3 +68,140 @@ function content_settings_up(){
     require_once( __DIR__ . '/content_settings/admin-settings.php' );
     require_once( __DIR__ . '/content_settings/landing-page.php' );
 }
+
+// Polylang
+
+add_action('init', function () {
+    pll_register_string(
+        'discover_title',
+        'Discover Title',
+        'LandingPage',
+        false
+    );
+    pll_register_string(
+        'discover_text',
+        'Discover Text',
+        'LandingPage',
+        false
+    );
+
+    pll_register_string(
+        'benefits_title',
+        'Benefits Title',
+        'LandingPage',
+        false
+    );
+    pll_register_string(
+        'benefits_text',
+        'Benefits Text',
+        'LandingPage',
+        false
+    );
+    pll_register_string(
+        'benefits_main_title',
+        'Benefits Main Title',
+        'LandingPage',
+        false
+    );
+    pll_register_string(
+        'benefits_main_subtitle',
+        'Benefits Main Subtitle',
+        'LandingPage',
+        false
+    );
+
+    // Benefits
+    pll_register_string(
+        'benefits_first',
+        'Benefits First',
+        'LandingPage Benefits',
+        false
+    );
+    pll_register_string(
+        'benefits_second',
+        'Benefits Second',
+        'LandingPage Benefits',
+        false
+    );
+    pll_register_string(
+        'benefits_third',
+        'Benefits Third',
+        'LandingPage Benefits',
+        false
+    );
+    pll_register_string(
+        'benefits_four',
+        'Benefits Four',
+        'LandingPage Benefits',
+        false
+    );
+    pll_register_string(
+        'benefits_five',
+        'Benefits Five',
+        'LandingPage Benefits',
+        false
+    );
+    //Procient
+    pll_register_string(
+        'benefits_first_procient',
+        'Benefits First_procient',
+        'LandingPage Benefits',
+        false
+    );
+    pll_register_string(
+        'benefits_second_procient',
+        'Benefits Second_procient',
+        'LandingPage Benefits',
+        false
+    );
+    pll_register_string(
+        'benefits_third_procient',
+        'Benefits Third_procient',
+        'LandingPage Benefits',
+        false
+    );
+    pll_register_string(
+        'benefits_four_procient',
+        'Benefits Four_procient',
+        'LandingPage Benefits',
+        false
+    );
+    pll_register_string(
+        'benefits_five_procient',
+        'Benefits Five_procient',
+        'LandingPage Benefits',
+        false
+    );
+
+    //The Sciense
+    pll_register_string(
+        'thesciense_title',
+        'TheScience Title',
+        'LandingPage',
+        false
+    );
+    pll_register_string(
+        'thesciense_text',
+        'TheScience Text',
+        'LandingPage',
+        false
+    );
+    pll_register_string(
+        'thesciense_little_text',
+        'TheScience Little Text',
+        'LandingPage',
+        false
+    );
+    pll_register_string(
+        'thesciense_second_title',
+        'TheScience Second Title',
+        'LandingPage',
+        false
+    );
+    pll_register_string(
+        'thesciense_second_subtitle',
+        'TheScience Second Subtitle',
+        'LandingPage',
+        false
+    );
+});
