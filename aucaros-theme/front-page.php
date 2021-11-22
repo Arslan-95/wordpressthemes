@@ -118,14 +118,14 @@
                      <div class="gdlr-title-item">
                         <div class="gdlr-item-title-wrapper gdlr-item pos-left ">
                            <div class="gdlr-item-title-head">
-                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border"><?php echo pll_e('Discover Title'); ?></h3>
+                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border"><?php pll_e('Discover Title'); ?></h3>
                               <div class="clear"></div>
                            </div>
                            <div class="gdlr-item-title-divider"></div>
                         </div>
                      </div>
                      <div class="gdlr-item gdlr-content-item">
-                        <p><?php echo pll_e( 'Discover Text' ); ?></p>
+                        <p><?php pll_e( 'Discover Text' ); ?></p>
                      </div>
                   </div>
                   <div class="clear"></div>
@@ -148,14 +148,14 @@
                      <div class="gdlr-title-item" id="the-nature">
                         <div class="gdlr-item-title-wrapper gdlr-item pos-center ">
                            <div class="gdlr-item-title-head">
-                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border"><?php echo pll_e( 'Benefits Title' ); ?></h3>
+                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border"><?php pll_e( 'Benefits Title' ); ?></h3>
                               <div class="clear"></div>
                            </div>
                         </div>
                      </div>
                      <div class="gdlr-item gdlr-content-item" style="margin-bottom: 40px;">
                         <div class="feature-media-content">
-                           <p style="text-align: center;"><?php echo pll_e( 'Benefits Text' ); ?></p>
+                           <p style="text-align: center;"><?php pll_e( 'Benefits Text' ); ?></p>
                         </div>
                      </div>
                   </div>
@@ -168,10 +168,10 @@
                      <div class="gdlr-title-item" id="benefits" style="margin-bottom: 15px;">
                         <div class="gdlr-item-title-wrapper gdlr-item pos-center ">
                            <div class="gdlr-item-title-head">
-                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border"><?php echo pll_e( 'Benefits Main Title' ); ?></h3>
+                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border"><?php pll_e( 'Benefits Main Title' ); ?></h3>
                               <div class="clear"></div>
                            </div>
-                           <div class="gdlr-item-title-caption gdlr-skin-info"><?php echo pll_e( 'Benefits Main Subtitle' ); ?></div>
+                           <div class="gdlr-item-title-caption gdlr-skin-info"><?php pll_e( 'Benefits Main Subtitle' ); ?></div>
                         </div>
                      </div>
                   </div>
@@ -187,11 +187,11 @@
                         <div class="twelve columns">
                            <div class="gdlr-item gdlr-column-shortcode">
                               <p></p>
-                              <p class="benefits-height" style="text-align: center; color: #fff;"><?php echo pll_e( 'Benefits First' ); ?></p>
+                              <p class="benefits-height" style="text-align: center; color: #fff;"><?php pll_e( 'Benefits First' ); ?></p>
                               <p></p>
-                              <div class="gdlr-chart gdlr-ux" data-percent="<?php echo pll_e('Benefits First_procient'); ?>" data-size="180" data-linewidth="8" data-color="#a28e56" data-bg-color="#333333" data-background="#222222">
+                              <div class="gdlr-chart gdlr-ux" data-percent="<?php pll_e('Benefits First_procient'); ?>" data-size="180" data-linewidth="8" data-color="#a28e56" data-bg-color="#333333" data-background="#222222">
                                  <div class="chart-content-wrapper">
-                                    <div class="chart-content-inner"><span class="chart-content"></span><span class="chart-percent-number" style="color:#a28e56;"><?php echo pll_e('Benefits First_procient') ?>%</span></div>
+                                    <div class="chart-content-inner"><span class="chart-content"></span><span class="chart-percent-number" style="color:#a28e56;"><?php pll_e('Benefits First_procient') ?>%</span></div>
                                  </div>
                               </div>
                               <br>
@@ -211,11 +211,11 @@
                         <div class="twelve columns">
                            <div class="gdlr-item gdlr-column-shortcode">
                               <p></p>
-                              <p class="p1 benefits-height" style="text-align: center; color: #fff;"><?php echo pll_e( 'Benefits Second' ); ?></p>
+                              <p class="p1 benefits-height" style="text-align: center; color: #fff;"><?php pll_e( 'Benefits Second' ); ?></p>
                               <p></p>
-                              <div class="gdlr-chart gdlr-ux" data-percent="<?php echo pll_e('Benefits Second_procient'); ?>" data-size="180" data-linewidth="8" data-color="#a28e56" data-bg-color="#333333" data-background="#222222">
+                              <div class="gdlr-chart gdlr-ux" data-percent="<?php pll_e('Benefits Second_procient'); ?>" data-size="180" data-linewidth="8" data-color="#a28e56" data-bg-color="#333333" data-background="#222222">
                                  <div class="chart-content-wrapper">
-                                    <div class="chart-content-inner"><span class="chart-content"></span><span class="chart-percent-number" style="color:#a28e56;"><?php echo pll_e('Benefits Second_procient'); ?>%</span></div>
+                                    <div class="chart-content-inner"><span class="chart-content"></span><span class="chart-percent-number" style="color:#a28e56;"><?php pll_e('Benefits Second_procient'); ?>%</span></div>
                                  </div>
                               </div>
                               <br>
@@ -235,11 +235,11 @@
                         <div class="twelve columns">
                            <div class="gdlr-item gdlr-column-shortcode">
                               <p></p>
-                              <p class="p1 benefits-height" style="text-align: center; color: #fff;"><?php echo pll_e( 'Benefits Third' ); ?></p>
+                              <p class="p1 benefits-height" style="text-align: center; color: #fff;"><?php pll_e( 'Benefits Third' ); ?></p>
                               <p></p>
-                              <div class="gdlr-chart gdlr-ux" data-percent="<?php echo pll_e('Benefits Third_procient'); ?>" data-size="180" data-linewidth="8" data-color="#a28e56" data-bg-color="#333333" data-background="#222222">
+                              <div class="gdlr-chart gdlr-ux" data-percent="<?php pll_e('Benefits Third_procient'); ?>" data-size="180" data-linewidth="8" data-color="#a28e56" data-bg-color="#333333" data-background="#222222">
                                  <div class="chart-content-wrapper">
-                                    <div class="chart-content-inner"><span class="chart-content"></span><span class="chart-percent-number" style="color:#a28e56;"><?php echo pll_e('Benefits Third_procient'); ?>%</span></div>
+                                    <div class="chart-content-inner"><span class="chart-content"></span><span class="chart-percent-number" style="color:#a28e56;"><?php pll_e('Benefits Third_procient'); ?>%</span></div>
                                  </div>
                               </div>
                               <br>
@@ -259,11 +259,11 @@
                         <div class="twelve columns">
                            <div class="gdlr-item gdlr-column-shortcode">
                               <p></p>
-                              <p class="benefits-height" style="text-align: center; color: #fff;"><?php echo pll_e( 'Benefits Four' ); ?></p>
+                              <p class="benefits-height" style="text-align: center; color: #fff;"><?php pll_e( 'Benefits Four' ); ?></p>
                               <p></p>
-                              <div class="gdlr-chart gdlr-ux" data-percent="<?php echo pll_e('Benefits Four_procient'); ?>" data-size="180" data-linewidth="8" data-color="#a28e56" data-bg-color="#333333" data-background="#222222">
+                              <div class="gdlr-chart gdlr-ux" data-percent="<?php pll_e('Benefits Four_procient'); ?>" data-size="180" data-linewidth="8" data-color="#a28e56" data-bg-color="#333333" data-background="#222222">
                                  <div class="chart-content-wrapper">
-                                    <div class="chart-content-inner"><span class="chart-content"></span><span class="chart-percent-number" style="color:#a28e56;"><?php echo pll_e('Benefits Four_procient'); ?>%</span></div>
+                                    <div class="chart-content-inner"><span class="chart-content"></span><span class="chart-percent-number" style="color:#a28e56;"><?php pll_e('Benefits Four_procient'); ?>%</span></div>
                                  </div>
                               </div>
                               <br>
@@ -283,11 +283,11 @@
                         <div class="twelve columns">
                            <div class="gdlr-item gdlr-column-shortcode">
                               <p></p>
-                              <p class="p1 benefits-height" style="text-align: center; color: #fff;"><?php echo pll_e( 'Benefits Five' ); ?></p>
+                              <p class="p1 benefits-height" style="text-align: center; color: #fff;"><?php pll_e( 'Benefits Five' ); ?></p>
                               <p></p>
-                              <div class="gdlr-chart gdlr-ux" data-percent="<?php echo pll_e('Benefits Five_procient'); ?>" data-size="180" data-linewidth="8" data-color="#a28e56" data-bg-color="#333333" data-background="#222222">
+                              <div class="gdlr-chart gdlr-ux" data-percent="<?php pll_e('Benefits Five_procient'); ?>" data-size="180" data-linewidth="8" data-color="#a28e56" data-bg-color="#333333" data-background="#222222">
                                  <div class="chart-content-wrapper">
-                                    <div class="chart-content-inner"><span class="chart-content"></span><span class="chart-percent-number" style="color:#a28e56;"><?php echo pll_e('Benefits Five_procient'); ?>%</span></div>
+                                    <div class="chart-content-inner"><span class="chart-content"></span><span class="chart-percent-number" style="color:#a28e56;"><?php pll_e('Benefits Five_procient'); ?>%</span></div>
                                  </div>
                               </div>
                               <br>
@@ -322,10 +322,10 @@
                      <div class="gdlr-title-item">
                         <div class="gdlr-item-title-wrapper gdlr-item pos-center ">
                            <div class="gdlr-item-title-head">
-                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">Peptan™ F</h3>
+                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border"><?php pll_e('TheScience Second Title'); ?></h3>
                               <div class="clear"></div>
                            </div>
-                           <div class="gdlr-item-title-caption gdlr-skin-info">Is a natural, fish skin-derived<br>bioactive ingredient</div>
+                           <div class="gdlr-item-title-caption gdlr-skin-info"><?php pll_e('TheScience Second Subtitle'); ?></div>
                         </div>
                      </div>
                   </div>
@@ -333,15 +333,23 @@
                      <div class="gdlr-title-item" style="margin-bottom: 40px;">
                         <div class="gdlr-item-title-wrapper gdlr-item pos-left ">
                            <div class="gdlr-item-title-head">
-                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border"><br>THE SCIENCE</h3>
+                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border"><br><?php pll_e('TheScience Title'); ?></h3>
                               <div class="clear"></div>
                            </div>
                         </div>
                      </div>
                      <div class="gdlr-item gdlr-content-item" style="margin-bottom: 50px;">
-                        <p>The active ingredient of Pro.Collagenium (Peptan™ F) is a pure natural fish-derived ingredient (hydrolyzed collagen peptides*) that supplies the skin cells with the basic elements to synthesize new collagen fibers which improves epidermis moisture content and prevents skin aging.</p>
-                        <p class="p1">When taken orally (more than 90% is digested and quickly absorbed) collagen peptides trigger the synthesis and reorganization of new collagen fibers by stimulating fibroblast cells in the skin epidermis.</p>
-                        <p style="font-size: 10px;">(*) Collagen fiber is a very large chain-like molecule that is hardly absorbed by the skin or absorbed by the digestive tract when taken orally. Therefore, this molecule is “cut” (hydrolyzed) in to smaller parts to increase its digestibility and make it easily available for your body’s skin cells.</p>
+                        <?php
+                           if(strlen(pll__('TheScience Text1'))){
+                              echo '<p>' . pll__('TheScience Text1') . '</p>';
+                           }
+                        ?>
+                        <?php
+                           if(strlen(pll__('TheScience Text2'))){
+                              echo '<p class="p1">' . pll__('TheScience Text2') . '</p>';
+                           }
+                        ?>
+                        <p style="font-size: 10px;"><?php pll_e('TheScience Little Text'); ?></p>
                      </div>
                   </div>
                   <div class="clear"></div>
@@ -364,16 +372,16 @@
                      <div class="gdlr-title-item">
                         <div class="gdlr-item-title-wrapper gdlr-item pos-left ">
                            <div class="gdlr-item-title-head">
-                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border">Pro·Collagenium<sup>®</sup></h3>
+                              <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border"><?php pll_e('ProCollagenium Title'); ?></h3>
                               <div class="clear"></div>
                            </div>
                            <div class="gdlr-item-title-divider"></div>
-                           <div class="gdlr-item-title-caption gdlr-skin-info">High performance anti-aging drink</div>
+                           <div class="gdlr-item-title-caption gdlr-skin-info"><?php pll_e('ProCollagenium Subtitle'); ?></div>
                         </div>
                      </div>
                      <div class="gdlr-item gdlr-content-item" style="margin-bottom: 50px;">
-                        <p>Pro·Collagenium® is a new super-concentrated (10,000 mg) collagen-based anti-aging liquid food supplement which contributes to perfect the skin’s appearance from within.</p>
-                        <p>Taken on a daily basis, Pro·Collagenium has proven clinically to slow down the skin’s aging process in the deep layers of the skin with significant improvement of skin texture after 3 months only.</p>
+                        <p><?php pll_e('ProCollagenium Text1'); ?></p>
+                        <p><?php pll_e('ProCollagenium Text2'); ?></p>
                      </div>
                      <div class="gdlr-title-item">
                         <div class="gdlr-item-title-wrapper gdlr-item pos-left ">
@@ -383,48 +391,27 @@
                            </div>
                         </div>
                      </div>
-                     <div class="gdlr-stunning-text-ux gdlr-ux" style="opacity: 0; padding-top: 20px; margin-bottom: -20px;">
-                        <div class="gdlr-item gdlr-stunning-text-item type-left gdlr-style-2">
-                           <h2 class="stunning-text-title"></h2>
-                           <div class="stunning-text-caption gdlr-skin-info gdlr-title-font">
-                              <p>1.  Digestion of small peptides and free amino acids</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="gdlr-item gdlr-content-item">
-                        <hr>
-                     </div>
-                     <div class="gdlr-stunning-text-ux gdlr-ux" style="opacity: 0; padding-top: 20px; margin-bottom: -20px;">
-                        <div class="gdlr-item gdlr-stunning-text-item type-left gdlr-style-2">
-                           <h2 class="stunning-text-title"></h2>
-                           <div class="stunning-text-caption gdlr-skin-info gdlr-title-font">
-                              <p>2. Absorption in the small intestine</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="gdlr-item gdlr-content-item" style="margin-bottom: 0px;">
-                        <hr>
-                     </div>
-                     <div class="gdlr-stunning-text-ux gdlr-ux" style="opacity: 0; padding-top: 20px; margin-bottom: -20px;">
-                        <div class="gdlr-item gdlr-stunning-text-item type-left gdlr-style-2">
-                           <h2 class="stunning-text-title"></h2>
-                           <div class="stunning-text-caption gdlr-skin-info gdlr-title-font">
-                              <p>3. Collagen peptide reaches the skin cells</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="gdlr-item gdlr-content-item">
-                        <hr>
-                     </div>
-                     <div class="gdlr-stunning-text-ux gdlr-ux" style="opacity: 0; padding-top: 20px; margin-bottom: -20px;">
-                        <div class="gdlr-item gdlr-stunning-text-item type-left gdlr-style-2">
-                           <h2 class="stunning-text-title"></h2>
-                           <div class="stunning-text-caption gdlr-skin-info gdlr-title-font">
-                              <p>4. Stimulation skin collagen synthesis</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+                     <?php
+                        $i_numb = 1;
+                        while($i_numb < 6):
+                           if(pll__("ProCollageniumList Item$i_numb")):
+                              ?>
+                                 <div class="gdlr-stunning-text-ux gdlr-ux" style="opacity: 0; padding-top: 20px; margin-bottom: -20px;">
+                                    <div class="gdlr-item gdlr-stunning-text-item type-left gdlr-style-2">
+                                       <h2 class="stunning-text-title"></h2>
+                                       <div class="stunning-text-caption gdlr-skin-info gdlr-title-font">
+                                          <p><?php echo $i_numb . '. ' . pll__("ProCollageniumList Item$i_numb"); ?></p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="gdlr-item gdlr-content-item" style="margin-bottom: 0px;">
+                                    <hr>
+                                 </div>
+                              <?
+                           endif;
+                           $i_numb++;
+                        endwhile;
+                     ?>
                   <div class="two-fifth columns"></div>
                   <div class="clear"></div>
                </div>

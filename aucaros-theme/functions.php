@@ -181,8 +181,14 @@ add_action('init', function () {
         false
     );
     pll_register_string(
-        'thesciense_text',
-        'TheScience Text',
+        'thesciense_text1',
+        'TheScience Text1',
+        'LandingPage',
+        false
+    );
+    pll_register_string(
+        'thesciense_text2',
+        'TheScience Text2',
         'LandingPage',
         false
     );
@@ -202,6 +208,69 @@ add_action('init', function () {
         'thesciense_second_subtitle',
         'TheScience Second Subtitle',
         'LandingPage',
+        false
+    );
+
+    //Pro Collagenium
+    pll_register_string(
+        'pro_collagenium_title',
+        'ProCollagenium Title',
+        'LandingPage ProCollagenium',
+        false
+    );
+    pll_register_string(
+        'pro_collagenium_subtitle',
+        'ProCollagenium Subtitle',
+        'LandingPage ProCollagenium',
+        false
+    );
+    pll_register_string(
+        'pro_collagenium_text1',
+        'ProCollagenium Text1',
+        'LandingPage ProCollagenium',
+        false
+    );
+    pll_register_string(
+        'pro_collagenium_text2',
+        'ProCollagenium Text2',
+        'LandingPage ProCollagenium',
+        false
+    );
+    //Pro Collagenium List
+    pll_register_string(
+        'pro_collagenium_list_title',
+        'ProCollageniumList Title',
+        'LandingPage ProCollageniumList',
+        false
+    );
+    pll_register_string(
+        'pro_collagenium_list_item1',
+        'ProCollageniumList Item1',
+        'LandingPage ProCollageniumList',
+        false
+    );
+    pll_register_string(
+        'pro_collagenium_list_item2',
+        'ProCollageniumList Item2',
+        'LandingPage ProCollageniumList',
+        false
+    );
+    pll_register_string(
+        'pro_collagenium_list_item3',
+        'ProCollageniumList Item3',
+        'LandingPage ProCollageniumList',
+        false
+    );
+    pll_register_string(
+        'pro_collagenium_list_item4',
+        'ProCollageniumList Item4',
+        'LandingPage ProCollageniumList',
+        false
+    );
+    pll_register_string(
+        'pro_collagenium_list_item5',
+        'ProCollageniumList Item5',
+        'LandingPage ProCollageniumList',
         false
     );
 });
