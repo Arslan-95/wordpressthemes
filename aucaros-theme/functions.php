@@ -274,3 +274,13 @@ add_action('init', function () {
         false
     );
 });
+
+// Posts
+
+add_shortcode( 'about_subtitle', 'about_subtitle_function' );
+
+function about_subtitle_function( $atts ){
+    $text = $atts['text'];
+    return "<div class='gdlr-item-title-divider'></div>
+    <div class='gdlr-item-title-caption gdlr-skin-info'>$text</div>";
+}

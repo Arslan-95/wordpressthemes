@@ -338,7 +338,7 @@ body.search .page-not-found-block{ margin-top: 0px; }
 /*----------------------------------------------------------------------*/
 
 /*--- item title ---*/
-.gdlr-item-title-wrapper.gdlr-item{ margin-bottom: 40px; }
+.gdlr-item-title-caption{ margin-bottom: 40px; }
 .gdlr-personnel-item-wrapper div.gdlr-item-title-wrapper.gdlr-item.pos-center { margin-bottom: 70px; }
 .gdlr-item-title-wrapper .gdlr-item-title{ font-size: 27px; margin-bottom: 0px; line-height: 1; 
 	display: inline-block; text-transform: uppercase; letter-spacing: 4px; }
@@ -348,7 +348,7 @@ body.search .page-not-found-block{ margin-top: 0px; }
 padding: 10px 18px 10px 18px; }
 .gdlr-item-title-wrapper .gdlr-flex-next{ margin-left: 40px;
 padding: 10px 18px 10px 18px; }
-.gdlr-item-title-wrapper .gdlr-item-title-caption{ margin-top: 23px; font-style: italic; letter-spacing: 2px; }
+.gdlr-item-title-caption{ margin-top: 23px; font-style: italic; letter-spacing: 2px; }
 .gdlr-item-title-wrapper .gdlr-item-title-link{ margin-top: 18px; display: block; font-style: italic; letter-spacing: 1px; }
 .gdlr-item-title-wrapper .gdlr-item-title-divider{ width: 29px; margin-top: 27px;
 	border-bottom-width: 2px; border-bottom-style: solid; }

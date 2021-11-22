@@ -50,7 +50,7 @@ body{ background-color: #dddddd; }
 h1, h2, h3, h4, h5, h6, .gdlr-title, .gdlr-title a{ color: #ffffff; }
 .gdlr-item-title-wrapper .gdlr-item-title{ color: #ffffff; border-color: #ffffff; }
 .gdlr-item-title-divider{ border-color: #444444; }
-.gdlr-item-title-wrapper .gdlr-item-title-caption{ color: #86754d; }
+.gdlr-item-title-caption{ color: #86754d; }
 body{ color: #c1c1c1; }
 a, .feature-media-caption{ color: #86754d; }
 a:hover{ color: #a57856; }
@@ -328,7 +328,7 @@ margin-top: -22px !important;
 background-size: cover !important; 
 }
 
-.gdlr-item-title-wrapper .gdlr-item-title-caption {
+.gdlr-item-title-caption {
 margin-top: 7px;
 }
 

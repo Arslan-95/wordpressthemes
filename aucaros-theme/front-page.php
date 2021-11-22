@@ -442,7 +442,10 @@
                      <div class="gdlr-item gdlr-content-item">
                         <div role="form" class="wpcf7" id="wpcf7-f3743-o1" lang="en-US" dir="ltr">
                            <div class="screen-reader-response"></div>
-                           <form action="#wpcf7-f3743-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                              <?php
+                                 echo do_shortcode('[cf7form cf7key="%d0%b1%d0%b5%d0%b7-%d0%bd%d0%b0%d0%b7%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f"]');
+                              ?>
+                           <!-- <form action="#wpcf7-f3743-o1" method="post" class="wpcf7-form" novalidate="novalidate">
                               <div style="display: none;">
                                  <input type="hidden" name="_wpcf7" value="3743">
                                  <input type="hidden" name="_wpcf7_version" value="4.5.1">
@@ -749,7 +752,7 @@
                               </p>
                               <p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="<?php echo get_template_directory_uri(); ?> /assets/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden; opacity: 0;"></p>
                               <div class="wpcf7-response-output wpcf7-display-none"></div>
-                           </form>
+                           </form> -->
                         </div>
                      </div>
                   </div>
