@@ -273,6 +273,14 @@ add_action('init', function () {
         'LandingPage ProCollageniumList',
         false
     );
+
+    //FAQs
+    pll_register_string(
+        'faqs_title',
+        'FAQs Title',
+        'FAQs',
+        false
+    );
 });
 
 // Posts
