@@ -46,6 +46,7 @@ add_action( 'after_setup_theme', 'menu_reg_fnc' );
 
 function menu_reg_fnc(){
     register_nav_menu( 'primary', 'primary-menu' );
+    register_nav_menu( 'footer', 'footer-menu' );
 }
 
 add_filter( 'nav_menu_css_class', 'add_auracos_class_to_nav_menu', 10, 2 );
@@ -281,6 +282,84 @@ add_action('init', function () {
         'FAQs',
         false
     );
+
+    // Footer
+    pll_register_string(
+        'copyright',
+        'Copyright',
+        'Footer',
+        false
+    );
+
+    // First Screen
+    pll_register_string(
+        'first_screen_title1',
+        'First Screen Title1',
+        'First Screen',
+        false
+    );
+    pll_register_string(
+        'first_screen_title2',
+        'First Screen Title2',
+        'First Screen',
+        false
+    );
+    pll_register_string(
+        'first_screen_title3',
+        'First Screen Title3',
+        'First Screen',
+        false
+    );
+
+    pll_register_string(
+        'first_screen_subtitle1',
+        'First Screen subTitle1',
+        'First Screen',
+        false
+    );
+    pll_register_string(
+        'first_screen_subtitle2',
+        'First Screen subTitle2',
+        'First Screen',
+        false
+    );
+    pll_register_string(
+        'first_screen_text2',
+        'First Screen text2',
+        'First Screen',
+        false
+    );
+    pll_register_string(
+        'first_screen_subtitle3',
+        'First Screen subTitle3',
+        'First Screen',
+        false
+    );
+    pll_register_string(
+        'first_screen_button',
+        'First Screen button',
+        'First Screen',
+        false
+    );
+    //Social
+    pll_register_string(
+        'social_facebook',
+        'social facebook',
+        'Social',
+        false
+    );
+    pll_register_string(
+        'social_instagram',
+        'social instagram',
+        'Social',
+        false
+    );
+    pll_register_string(
+        'social_youtube',
+        'social youtube',
+        'Social',
+        false
+    );
 });
 
 // Posts
@@ -292,3 +371,8 @@ function about_subtitle_function( $atts ){
     return "<div class='gdlr-item-title-divider'></div>
     <div class='gdlr-item-title-caption gdlr-skin-info'>$text</div>";
 }
+
+// Logo
+add_action('after_setup_theme', function () {
+    add_theme_support( 'custom-logo' );
+});

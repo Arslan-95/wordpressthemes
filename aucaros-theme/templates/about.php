@@ -85,23 +85,4 @@
 				<div class="clear"></div>
 			</div>
 		</div>
-		<!-- Below Sidebar Section-->
-		<div class="below-sidebar-wrapper">
-			<section id="content-section-3">
-				<div class="gdlr-color-wrapper  gdlr-show-all no-skin" id="copyright-link-con" style="background-color: #0f0f0f; ">
-					<div class="container">
-						<div class="gdlr-item gdlr-content-item">
-							<p><a style="margin-right: 12px;" href="http://procollagenium.com/about/#home">Home</a> | <a style="margin-right: 12px; margin-left: 12px;" href="http://procollagenium.com/about/#discover">Discover</a> | <a style="margin-right: 12px; margin-left: 12px;" href="http://procollagenium.com/about/#thescience">The Science</a> | <a style="margin-right: 12px; margin-left: 12px;" href="http://procollagenium.com/about/#testimonials">Testimonials</a> |<a style="margin-right: 12px; margin-left: 12px;" href="http://procollagenium.com/about/#contact">Contact</a> |<a style="margin-right: 12px; margin-left: 12px;" href="http://procollagenium.com/about/">About</a> |<a style="margin-right: 12px; margin-left: 12px;" href="http://procollagenium.com/faqs/">FAQs</a></p>
-						</div>
-						<div class="clear"></div>
-						<div class="clear"></div>
-					</div>
-				</div>
-				<div class="clear"></div>
-			</section>
-		</div>
-	</div>
-	<!-- gdlr-content -->
-	<div class="clear"></div>
-</div>
 <?php get_footer(); ?>

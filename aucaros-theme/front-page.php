@@ -15,40 +15,40 @@
                         <div class="ms-slide" data-delay="4" data-fill-mode="fill">
                            <img src="http://procollagenium.com/wp-content/plugins/masterslider/public/assets/css/blank.gif" alt="" title="collagen-bg" data-src="http://procollagenium.com/wp-content/uploads/2016/09/render-10.jpg">
                            <div class="ms-layer pro-title feel-the" style="width:700px;" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="1187" data-delay="200" data-ease="easeOutQuint" data-offset-x="694" data-offset-y="367" data-origin="tl" data-position="normal">
-                              <h1 style="color: #fff; font-size: 3em; letter-spacing: -1.5px; font-weight: 100; font-family: montserrat,arial;">FEEL THE BEAUTY</h1>
+                              <h1 style="color: #fff; font-size: 3em; letter-spacing: -1.5px; font-weight: 100; font-family: montserrat,arial;"><?php pll_e('First Screen Title1'); ?></h1>
                            </div>
                            <img class="ms-layer gold-line" src="http://procollagenium.com/wp-content/plugins/masterslider/public/assets/css/blank.gif" data-src="http://procollagenium.com/wp-content/uploads/2016/06/gold-bar.png" alt="" style="width:350px;height:40px;" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-delay="387" data-ease="easeOutQuint" data-type="image" data-offset-x="695" data-offset-y="415" data-origin="tl" data-position="normal">
                            <div class="ms-layer p-text p-watch" style="width:700px;" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="1512" data-delay="550" data-ease="easeOutQuint" data-offset-x="698" data-offset-y="450" data-origin="tl" data-position="normal">
-                              <h1 style="color: #fff; font-size: 1.5em; font-weight: 300; font-family: montserrat,arial;">Watch the video to learn more</h1>
+                              <h1 style="color: #fff; font-size: 1.5em; font-weight: 300; font-family: montserrat,arial;"><?php pll_e('First Screen subTitle1'); ?></h1>
                            </div>
-                           <a href="//www.youtube.com/embed/muiN_ctFtkY?rel=0" data-type="video"></a>
+                           <a href="youtube.com" data-type="video" class="first_screen_video"></a>
                         </div>
                         <div class="ms-slide" data-delay="4" data-fill-mode="fill">
                            <img src="http://procollagenium.com/wp-content/plugins/masterslider/public/assets/css/blank.gif" alt="" title="collagen-bg" data-src="http://procollagenium.com/wp-content/uploads/2016/07/render-auracos.jpg">
                            <div class="ms-layer pro-title collagen" style="width:700px;" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="1512" data-ease="easeOutQuint" data-offset-x="16" data-offset-y="358" data-origin="tl" data-position="normal">
-                              <h1 style="color: #fff; font-size: 3.3em; letter-spacing: 2px; font-weight: 100; font-family: montserrat, arial;">Pro·Collagenium<sup style="vertical-align: super; font-size: 0.5em;">®</sup></h1>
+                              <h1 style="color: #fff; font-size: 3.3em; letter-spacing: 2px; font-weight: 100; font-family: montserrat, arial;"><?php pll_e('First Screen Title2'); ?></h1>
                            </div>
                            <img class="ms-layer gold-line" src="http://procollagenium.com/wp-content/plugins/masterslider/public/assets/css/blank.gif" data-src="http://procollagenium.com/wp-content/uploads/2016/06/gold-bar.png" alt="" style="width:400px;height:40px;" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="1437" data-delay="400" data-ease="easeOutQuint" data-type="image" data-offset-x="16" data-offset-y="420" data-origin="tl" data-position="normal">
                            <div class="ms-layer p-text p-anti" style="width:600px;" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-delay="600" data-ease="easeOutQuint" data-offset-x="16" data-offset-y="458" data-origin="tl" data-position="normal">
-                              <span style="color: #fff; font-size: 1.6em; font-family: montserrat,arial; font-weight: 300;">The Anti Aging Collagen Revolution</span>
+                              <span style="color: #fff; font-size: 1.6em; font-family: montserrat,arial; font-weight: 300;"><?php pll_e('First Screen subTitle2'); ?></span>
                            </div>
                            <div class="ms-layer p-text p-high" style="width:400px;" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-delay="800" data-ease="easeOutQuint" data-offset-x="16" data-offset-y="492" data-origin="tl" data-position="normal">
-                              <span style="color: #fff; font-size: 1.2em; font-family: montserrat,arial; font-weight: 300;">High Performance Anti-aging Drink</span>
+                              <span style="color: #fff; font-size: 1.2em; font-family: montserrat,arial; font-weight: 300;"><?php pll_e('First Screen text2'); ?></span>
                            </div>
                            <a href="#discover" target="_self" class="ms-layer pro-button ms-btn ms-btn-round ms-btn-n msp-preset-btn-159" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-delay="850" data-ease="easeOutQuint" data-type="button" data-offset-x="15" data-offset-y="541" data-origin="tl" data-position="normal">
-                           Discover</a>
+                           <?php pll_e('First Screen button'); ?></a>
                         </div>
                         <div class="ms-slide" data-delay="4" data-fill-mode="fill">
                            <img src="http://procollagenium.com/wp-content/plugins/masterslider/public/assets/css/blank.gif" alt="" title="collagen-bg" data-src="http://procollagenium.com/wp-content/uploads/2016/06/mowdels.jpg">
                            <div class="ms-layer pro-title pro-10" style="width:700px;" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="1512" data-ease="easeOutQuint" data-offset-x="10" data-offset-y="376" data-origin="tl" data-position="normal">
-                              <h1 style="color: #fff; font-size: 3em; letter-spacing: -1.5px; font-weight: 100; font-family: montserrat,arial;">10.000mg Collagen Shot</h1>
+                              <h1 style="color: #fff; font-size: 3em; letter-spacing: -1.5px; font-weight: 100; font-family: montserrat,arial;"><?php pll_e('First Screen Title3'); ?></h1>
                            </div>
                            <img class="ms-layer gold-line" src="http://procollagenium.com/wp-content/plugins/masterslider/public/assets/css/blank.gif" data-src="http://procollagenium.com/wp-content/uploads/2016/06/gold-bar.png" alt="" style="width:470px;height:40px;" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="1437" data-delay="400" data-ease="easeOutQuint" data-type="image" data-offset-x="12" data-offset-y="432" data-origin="tl" data-position="normal">
                            <div class="ms-layer p-text p-your" style="width:600px;" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-delay="600" data-ease="easeOutQuint" data-offset-x="16" data-offset-y="467" data-origin="tl" data-position="normal">
-                              <span style="color: #fff; font-size: 1.6em; font-family:montserrat,arial; font-weight:300;">Your Daily Skin Care Routine</span>
+                              <span style="color: #fff; font-size: 1.6em; font-family:montserrat,arial; font-weight:300;"><?php pll_e('First Screen subTitle3'); ?></span>
                            </div>
                            <a href="#discover" target="_self" class="ms-layer p-button p-discover ms-btn ms-btn-round ms-btn-n msp-preset-btn-159" data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-delay="850" data-ease="easeOutQuint" data-type="button" data-offset-x="15" data-offset-y="541" data-origin="tl" data-position="normal">
-                           Discover</a>
+                           <?php pll_e('First Screen button'); ?></a>
                         </div>
                      </div>
                      <!-- END MasterSlider Main -->
@@ -758,26 +758,26 @@
                   </div>
                   <div class="clear"></div>
                </div>
-            </div>
-            <div class="clear"></div>
-         </section>
-         <section id="content-section-11">
-            <div class="gdlr-color-wrapper  gdlr-show-all no-skin" id="copyright-link-con" style="background-color: #0f0f0f; ">
-               <div class="container">
-                  <div class="gdlr-item gdlr-content-item">
-                     <p><a style="margin-right: 12px;" href="#home">Home</a> | <a style="margin-right: 12px; margin-left: 12px;" href="#discover">Discover</a> | <a style="margin-right: 12px; margin-left: 12px;" href="#thescience">The Science</a> | <a style="margin-right: 12px; margin-left: 12px;" href="#contact">Contact</a> |<a style="margin-right: 12px; margin-left: 12px;" href="/about/">About</a> |<a style="margin-right: 12px; margin-left: 12px;" href="/faqs/">FAQs</a></p>
-                  </div>
-                  <div class="clear"></div>
-                  <div class="clear"></div>
+               <div style="display: none" class="first_screen_images">
+                  <?php the_content(); ?>
+                  <script>
+                     function set_first_screen_content(){
+                        let current_images = jQuery('.ms-slide > img:not(.ms-layer.gold-line)');
+                        let after_images = jQuery('.first_screen_images img');
+                        let i = 0;
+                        for(ct_img of current_images){
+                           jQuery(ct_img).attr('data-src', `${jQuery(after_images[i]).attr('src')}`);
+                           i++;
+                        }
+
+                        let yt_video = jQuery('.first_screen_images .is-type-video iframe').attr('src');
+                        jQuery('.first_screen_video').attr('href', yt_video);
+                     }
+                     set_first_screen_content();
+                  </script>
                </div>
             </div>
             <div class="clear"></div>
          </section>
-      </div>
-      <!-- Below Sidebar Section-->
-   </div>
-   <!-- gdlr-content -->
-   <div class="clear"></div>
-</div>
 <!-- content wrapper -->
 <?php get_footer(); ?>

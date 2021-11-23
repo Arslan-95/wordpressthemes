@@ -23,9 +23,7 @@
                <div class="gdlr-header-container container">
                   <!-- logo -->
                   <div class="gdlr-logo">
-                     <a href="/">
-                     <img src="<?php echo get_template_directory_uri(); ?> /assets/images/auracos-feelthebeaut.png" alt="" width="446" height="51" data-normal="<?php echo get_template_directory_uri(); ?> /assets/images/auracos-feelthebeaut.png">						
-                     </a>
+                     <?php the_custom_logo(); ?>
                      <div class="gdlr-responsive-navigation dl-menuwrapper" id="gdlr-responsive-navigation">
                         <button class="dl-trigger">Open Menu</button>
                         <?php                        
