@@ -360,6 +360,20 @@ add_action('init', function () {
         'Social',
         false
     );
+
+    // Form
+    pll_register_string(
+        'contact_form',
+        'Contact Form Key',
+        'Contact Form',
+        false
+    );
+    pll_register_string(
+        'contact_form_title',
+        'Contact Form Title',
+        'Contact Form',
+        false
+    );
 });
 
 // Posts
